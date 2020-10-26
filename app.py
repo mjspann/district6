@@ -20,7 +20,7 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 #px.set_mapbox_access_token("pk.eyJ1IjoibWpzcGFubiIsImEiOiJja2ZmaWEwOG8wYzRuMnJwaW1kd2tnNzlkIn0.SoDj7lwJ8uCgC01Is9_IlA")
 
-df = pd.read_csv('data/updatedschools.csv', index_col=0, parse_dates=True)
+df = pd.read_csv('./data/updatedschools.csv', index_col=0, parse_dates=True)
 
 ##########################################################################################
 
@@ -41,7 +41,7 @@ fig.update_layout(
     yaxis = dict(title='Quarantine Level',titlefont=dict(family='Helvetica, monospace',size=12,color='#7f7f7f')),
     )
 ##################################################################################
-dfq = pd.read_csv("data/daily_Q_num.csv")
+dfq = pd.read_csv("./data/daily_Q_num.csv")
 
 sfq = dfq.groupby('Bdate', as_index=False)['dailyQ'].mean()
 
