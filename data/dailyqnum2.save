@@ -1,0 +1,14 @@
+CREATE TABLE dailyqnum2(
+   School     VARCHAR(48) NOT NULL PRIMARY KEY
+  ,GradeLevel VARCHAR(36)
+  ,QS         INTEGER  NOT NULL
+  ,QA         INTEGER  NOT NULL
+  ,Bdate      DATE  NOT NULL
+  ,Edate      DATE  NOT NULL
+  ,add_by_day INTEGER  NOT NULL
+  ,sub_by_day INTEGER  NOT NULL
+  ,dailyQ     INTEGER  NOT NULL
+);
+INSERT INTO dailyqnum(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Frontier Elementary','5th Grade Cohort',17,2,'8/20/2020','9/$
+INSERT INTO dailyqnum(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Franklin Middle School','8th Grade Cohort',19,4,'8/25/2020',$
+INSERT INTO dailyqnum(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Jackson Elementary','3rd Grade Cohort',18,5,'8/25/2020','9/9$

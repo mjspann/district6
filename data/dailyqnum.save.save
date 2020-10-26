@@ -1,0 +1,114 @@
+CREATE TABLE dailyqnum2COPY [Table Name](Optional Columns)
+FROM '[Absolute Path to File]'
+DELIMITER '[Delimiter Character]' CSV [HEADER];
+(  GNU nano 2.9.3                                                             dailyqnum2                                                              Modified  
+
+CREATE TABLE dailyqnum22(
+   School     VARCHAR(48) NOT NULL PRIMARY KEY
+  ,GradeLevel VARCHAR(36)
+  ,QS         INTEGER  NOT NULL
+  ,QA         INTEGER  NOT NULL
+  ,Bdate      DATE  NOT NULL
+  ,Edate      DATE  NOT NULL
+  ,add_by_day INTEGER  NOT NULL
+  ,sub_by_day INTEGER  NOT NULL
+  ,dailyQ     INTEGER  NOT NULL
+);
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Frontier Elementary','5th Grade Cohort',17,2,'8/20/2020','9/$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Franklin Middle School','8th Grade Cohort',19,4,'8/25/2020',$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Jackson Elementary','3rd Grade Cohort',18,5,'8/25/2020','9/9$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Franklin Middle School','6th Grade Cohort',19,6,'8/26/2020',$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Early Childhood Center at Aims Community College','Preschool$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Prairie Heights Middle School','8th Grade Cohort',19,4,'8/28$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Jackson Elementary','4th Grade Cohort',22,3,'8/29/2020','9/1$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Shawsheen Elementary','2nd Grade Cohort',17,5,'8/30/2020','9$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Early College Academy','10th Grade Cohort',18,4,'8/31/2020',$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Franklin Middle School','8th Grade Cohort',24,5,'9/1/2020','$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Greeley Central High School','Mixed Cohort',60,2,'9/2/2020',$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Madison Elementary','4 Cohorts(2-1st Grade & 2-5th Grade)',6$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Northridge High School','Mixed Cohort',38,6,'9/2/2020','9/17$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('McAuliffe STEM Academy','7th Grade Cohort',19,5,'9/3/2020','$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Billie Martinez Elementary','1st Grade Cohort',19,5,'9/4/202$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Greeley Central High School','Mixed Cohort',32,5,'9/4/2020',$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Franklin Middle School','6th Grade Cohort',18,5,'9/10/2020',$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Greeley 6 Administration Building',NULL,0,7,'9/10/2020','9/2$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Greeley West High School','Mixed Cohort',52,6,'9/10/2020','9$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Innovative Connections High School','2nd Grade Cohort',21,2,$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('University Schools','1st Grade Cohort',22,2,'9/10/2020','9/2$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('University Schools','2st Grade Cohort',21,2,'9/10/2020','9/2$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('ECC Aims District 6 Preschool','1 Preschool Cohort',30,5,'9/$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Heath Middle School','8th Grade and Algebra Cohort',47,7,'9/$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Maplewood Elementary School','5th Grade Cohort',23,4,'9/14/2$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Jackson Elementary','3rd Grade Cohort',16,3,'9/16/2020','9/3$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Winograd K-8 Elementary School','3rd Grade Cohort',20,4,'9/1$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Franklin Middle School','7th Grade Cohort',20,4,'9/21/2020',$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Winograd K-8 Elementary School','5th Grade Cohort',24,1,'9/2$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Franklin Middle School','8th Grade Cohort',18,4,'9/24/2020',$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Franklin Middle School','8th Grade Cohort',20,4,'9/24/2020',$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Frontier Elementary','Mixed Cohort',22,5,'9/24/2020','10/8/2$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Jackson Elementary','5th Grade Cohort',18,4,'9/25/2020','10/$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Prairie Heights Middle School','8th Grade Cohort',8,2,'9/28/$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Franklin Middle School','6th Grade Cohort',16,0,'9/28/2020',$
+INSERT INTO dailyqnum2(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Dos Rios Elementary School','5th Grade Cohort',17,4,'9/29/20$
+                                                                      [ Read 59 lines ]
+^G Get Help      ^O Write Out     ^W Where Is      ^K Cut Text      ^J Justify       ^C Cur Pos       M-U Undo         M-A Mark Text    M-] To Bracket
+^X Exit          ^R Read File     ^\ Replace       ^U Uncut Text    ^T To Spell      ^_ Go To Line    M-E Redo         M-6 Copy Text    M-W WhereIs Next
+
+   School     VARCHAR(48) NOT NULL PRIMARY KEY
+  ,GradeLevel VARCHAR(36)
+  ,QS         INTEGER  NOT NULL
+  ,QA         INTEGER  NOT NULL
+  ,Bdate      DATE  NOT NULL
+  ,Edate      DATE  NOT NULL
+  ,add_by_day INTEGER  NOT NULL
+  ,sub_by_day INTEGER  NOT NULL
+  ,dailyQ     INTEGER  NOT NULL
+);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Frontier Elementary','5th Grade Cohort',17,2,'8/20/2020','9/8/2020',19,0,19);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Franklin Middle School','8th Grade Cohort',19,4,'8/25/2020','9/9/2020',23,0,42);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Jackson Elementary','3rd Grade Cohort',18,5,'8/25/2020','9/9/2020',23,0,65);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Franklin Middle School','6th Grade Cohort',19,6,'8/26/2020','9/10/2020',25,0,90);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Early Childhood Center at Aims Community College','Preschool',39,3,'8/28/2020','9/15/2020',42,0,132);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Prairie Heights Middle School','8th Grade Cohort',19,4,'8/28/2020','9/10/2020',23,0,155);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Jackson Elementary','4th Grade Cohort',22,3,'8/29/2020','9/14/2020',25,0,180);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Shawsheen Elementary','2nd Grade Cohort',17,5,'8/30/2020','9/14/2020',22,0,202);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Early College Academy','10th Grade Cohort',18,4,'8/31/2020','9/8/2020',22,0,224);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Franklin Middle School','8th Grade Cohort',24,5,'9/1/2020','9/16/2020',29,0,253);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Greeley Central High School','Mixed Cohort',60,2,'9/2/2020','9/12/2020',62,0,315);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Madison Elementary','4 Cohorts(2-1st Grade & 2-5th Grade)',65,11,'9/2/2020','9/18/2020',76,0,391);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Northridge High School','Mixed Cohort',38,6,'9/2/2020','9/17/2020',44,0,435);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('McAuliffe STEM Academy','7th Grade Cohort',19,5,'9/3/2020','9/14/2020',24,0,459);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Billie Martinez Elementary','1st Grade Cohort',19,5,'9/4/2020','9/16/2020',24,0,483);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Greeley Central High School','Mixed Cohort',32,5,'9/4/2020','9/16/2020',37,0,520);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Franklin Middle School','6th Grade Cohort',18,5,'9/10/2020','9/24/2020',23,136,407);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Greeley 6 Administration Building',NULL,0,7,'9/10/2020','9/21/2020',7,0,414);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Greeley West High School','Mixed Cohort',52,6,'9/10/2020','9/24/2020',58,0,472);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Innovative Connections High School','2nd Grade Cohort',21,2,'9/10/2020','9/24/2020',23,0,495);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('University Schools','1st Grade Cohort',22,2,'9/10/2020','9/24/2020',24,0,519);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('University Schools','2st Grade Cohort',21,2,'9/10/2020','9/24/2020',23,0,542);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('ECC Aims District 6 Preschool','1 Preschool Cohort',30,5,'9/11/2020','9/25/2020',35,0,577);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Heath Middle School','8th Grade and Algebra Cohort',47,7,'9/13/2020','9/21/2020',54,62,569);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Maplewood Elementary School','5th Grade Cohort',23,4,'9/14/2020','9/23/2020',27,71,525);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Jackson Elementary','3rd Grade Cohort',16,3,'9/16/2020','9/30/2020',19,111,433);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Winograd K-8 Elementary School','3rd Grade Cohort',20,4,'9/17/2020','10/1/2020',24,44,413);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Franklin Middle School','7th Grade Cohort',20,4,'9/21/2020','10/5/2020',24,61,376);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Winograd K-8 Elementary School','5th Grade Cohort',24,1,'9/21/2020','9/29/2020',25,0,401);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Franklin Middle School','8th Grade Cohort',18,4,'9/24/2020','10/8/2020',22,178,245);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Franklin Middle School','8th Grade Cohort',20,4,'9/24/2020','10/8/2020',24,0,269);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Frontier Elementary','Mixed Cohort',22,5,'9/24/2020','10/8/2020',27,0,298);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Jackson Elementary','5th Grade Cohort',18,4,'9/25/2020','10/2/2020',22,35,285);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Prairie Heights Middle School','8th Grade Cohort',8,2,'9/28/2020','10/7/2020',10,0,295);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Franklin Middle School','6th Grade Cohort',16,0,'9/28/2020','10/8/2020',16,0,311);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Dos Rios Elementary School','5th Grade Cohort',17,4,'9/29/2020','10/8/2020',21,25,307);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Billie Martinez Elementary','2nd Grade Cohort',36,5,'9/30/2020','10/13/2020',41,22,329);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Frontier High School','All',0,0,'10/1/2020','10/12/2020',0,-24,305);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Heath Middle School','6th Grade Cohort',20,8,'10/3/2020','10/16/2020',28,6,311);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Heath Middle School','6th Grade Cohort',19,5,'10/6/2020','10/16/2020',24,0,311);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Nutrition Services','School-based personnel',0,4,'10/6/2020','10/16/2020',4,4,315);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Billie Martinez Elementary','1st Grade Cohort',19,3,'10/6/2020','10/21/2020',22,22,337);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Dos Rios Elementary School','5th Grade Cohort',16,2,'10/6/2020','10/20/2020',18,18,355);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Prairie Heights Middle School','6th, 7th and 8th Grade',66,15,'10/6/2020','10/20/2020',21,21,376);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Madison Elementary','4th Grade',18,1,'10/7/2020','10/22/2020',19,9,385);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Billie Martinez Elementary','1st Grade Cohort',24,2,'10/7/2020','10/22/2020',26,26,411);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Billie Martinez Elementary','1st Grade Cohort',21,2,'10/7/2020','10/22/2020',23,23,434);
+INSERT INTO dailyqnum22(School,GradeLevel,QS,QA,Bdate,Edate,add_by_day,sub_by_day,dailyQ) VALUES ('Billie Martinez Elementary','Kindergarten',18,6,'10/8/2020','10/20/2020',24,-14,420);

@@ -22,6 +22,7 @@ server = app.server
 
 df = pd.read_csv('./data/updatedschools.csv', index_col=0, parse_dates=True)
 
+
 ##########################################################################################
 
 df1 = df[df.QS.notnull()]
