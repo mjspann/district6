@@ -136,9 +136,9 @@ map.update_layout(
 
 app.layout = dbc.Container(
                 html.Div([
-                html.H2('GREELEY PUBLIC SCHOOL DISTRICT 6 Covid-19       By the Numbers'),
-                                 html.P('Open Source Independent look at Obfuscated District data'),
-                                 html.P(''),                  
+                html.H2('GREELEY PUBLIC SCHOOL DISTRICT 6 Covid-19'),
+                                 html.P('Open Source Independent look at published District covid data'),
+                                 html.P('Data is copied from the districts website daily and subject to some human error'),                  
                   dbc.Row([
                       dbc.Col(                          
                           html.Div(                             
