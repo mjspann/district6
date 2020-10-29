@@ -75,9 +75,18 @@ School_Cod,LATITUDE,LONGITUDE,School,GradeLevel,QS,QA,Bdate,Edate,Indicator,siz
 6364,40.437233,-104.792343,Northridge High School,BB Cohort Mixed,26,4,10/24/2020,11/7/2020,Quarantined,1
 2850,40.410126,-104.787331,University Schools,Kindergarten - 4th Grade Cohort,104,8,10/26/2020,11/6/2020,Quarantined,1
 5985,40.403175,-104.756348,Monfort Elementary School,3rd Grade Cohort,22,2,10/26/2020,11/5/2020,Quarantined,1
-54,40.406437,-104.656998,Bella Romero,,,,,,Clear,1
-988,40.396191,-104.720695,Brentwood Middle School,,,,,,Clear,1
-3173,40.427254,-104.68988,Fred Tjardes School of Innovation,,,,,,Clear,1
-52,40.381325,-104.748703,Heiman Elementary School,,,,,,Clear,1
-8467,40.395818,-104.676661,Salida del Sol Academy,,,,,,Clear,1
-9611,40.424239,-104.790297,West Ridge Academy,,,,,,Clear,1
+5660,40.427559,-104.766296,McAuliffe STEM Academy,7th Grade Cohort,38,4,10/27/2020,11/9/2020,Quarantined,1
+4356,40.39595,-104.711136,Jackson Elementary,1st Grade Cohort,22,2,10/27/2020,11/9/2020,Quarantined,1
+4356,40.39595,-104.711136,Jackson Elementary,5th Grade Cohort,19,3,10/27/2020,11/9/2020,Quarantined,1
+3614,40.39954,-104.735039,Greeley West High School,9th and 11th Grade Cohort,38,2,10/27/2020,11/6/2020,Quarantined,1
+3610,40.415386,-104.701805,Greeley Central High School,A A Cohort,36,5,10/28/2020,11/11/2020,Quarantined,1
+1500,40.38118,-104.710983,Chappelow K-8 Magnet School,8th Grade Cohort,27,4,10/28/2020,11/12/2020,Quarantined,1
+7700,40.418301,-104.728958,Scott Elementary School,2nd Grade Cohort,17,2,10/28/2020,11/5/2020,Quarantined,1
+,40.422161,-104.692711,Greeley 6 Administration Building,NEXT Program,2,1,10/28/2020,11/11/2020,Quarantined,1
+2850,40.410126,-104.787331,University Schools,Mixed Cohort,66,16,10/28/2020,11/12/2020,Quarantined,1
+54,40.406437,-104.656998,Bella Romero,,,,10/29/2020,,Clear,1
+988,40.396191,-104.720695,Brentwood Middle School,,,,10/29/2020,,Clear,1
+3173,40.427254,-104.68988,Fred Tjardes School of Innovation,,,,10/29/2020,,Clear,1
+52,40.381325,-104.748703,Heiman Elementary School,,,,10/29/2020,,Clear,1
+8467,40.395818,-104.676661,Salida del Sol Academy,,,,10/29/2020,,Clear,1
+9611,40.424239,-104.790297,West Ridge Academy,,,,10/29/2020,,Clear,1

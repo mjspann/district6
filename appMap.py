@@ -97,7 +97,23 @@ PIE.update_layout(
 
 
 ##########################################################################################
-map = px.scatter_mapbox(df, 
+
+ac = df[['School','LATITUDE','LONGITUDE','Bdate', 'Indicator','siz']].copy() 
+
+schools = ac['School'].unique()   #numpy ndarray of just the school names
+
+sch = pd.DataFrame()
+ 
+for x in schools:
+     oneschoolsrows = ac[ac['School'] == x]       
+     oneschoolsrows['Bdate'] = pd.to_datetime(oneschoolsrows.Bdate)    
+     sorted = oneschoolsrows.sort_values(by=['Bdate']).sort_values(by=['Bdate'])   
+     j3 = sorted.iloc[[0,-1]] #  looking for the last row wchich indicates the date nearest to  today
+     j4 = j3.iloc[[1]]        ## reduce 2 row return to just 1 row again closed to today
+     sch = sch.append(j4)
+    
+
+map = px.scatter_mapbox(sch, 
                                 lat="LATITUDE", 
                                 lon="LONGITUDE",                    
                                 color="Indicator",                               
@@ -115,6 +131,7 @@ map = px.scatter_mapbox(df,
                                 zoom=10.5
                                 
                                 )
+
 map.update_layout(
     mapbox_style="open-street-map",
     mapbox=dict(
@@ -131,7 +148,7 @@ map.update_layout(
             size=15,
             color='#090909'
             ),
-    )
+)
 
 
 app.layout = dbc.Container(
