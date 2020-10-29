@@ -65,7 +65,7 @@ map.update_layout(
         )
     ),
     margin=dict(l=0,r=50,t=60,b=40),
-    title = "Evans Greeley School District 6 - Schools Status by color - October 7th 2020",
+    title = "Evans Greeley School District 6 - Schools that have been Quarantined",
     titlefont=dict(
             family='sans-serif, monospace',
             size=15,
@@ -75,7 +75,7 @@ map.update_layout(
 
 app.layout = dbc.Container(
                 html.Div([
-                html.H2('GREELEY PUBLIC SCHOOL DISTRICT 6 Covid-19'),
+                html.H1('GREELEY PUBLIC SCHOOL DISTRICT 6 Covid-19'),
                                  html.P('Open Source Independent look at published District covid data'),
                                  html.P('Data is copied from the districts website daily and subject to some human error'),                  
                   dbc.Row([
