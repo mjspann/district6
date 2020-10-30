@@ -84,9 +84,11 @@ School_Cod,LATITUDE,LONGITUDE,School,GradeLevel,QS,QA,Bdate,Edate,Indicator,siz,
 7700,40.418301,-104.728958,Scott Elementary School,2nd Grade Cohort,17,2,10/28/2020,11/5/2020,Quarantined,1,Quarantined
 ,40.422161,-104.692711,Greeley 6 Administration Building,NEXT Program,2,1,10/28/2020,11/11/2020,Quarantined,1,Quarantined
 2850,40.410126,-104.787331,University Schools,Mixed Cohort,66,16,10/28/2020,11/12/2020,Quarantined,1,Quarantined
-54,40.406437,-104.656998,Bella Romero,,,,10/29/2020,,Clear,1,Clear
-988,40.396191,-104.720695,Brentwood Middle School,,,,10/29/2020,,Clear,1,Clear
-3173,40.427254,-104.68988,Fred Tjardes School of Innovation,,,,10/29/2020,,Clear,1,Clear
-52,40.381325,-104.748703,Heiman Elementary School,,,,10/29/2020,,Clear,1,Clear
-8467,40.395818,-104.676661,Salida del Sol Academy,,,,10/29/2020,,Clear,1,Clear
-9611,40.424239,-104.790297,West Ridge Academy,,,,10/29/2020,,Clear,1,Clear
+988,40.396191,-104.720695,Brentwood Middle School,8th Grade Cohort,21,6,10/28/2020,11/12/2020,Quarantined,1,Quarantined
+6774,40.429775,-104.701637,Billie Martinez Elementary,1st  Grade Cohort,23,4,10/29/2020,11/11/2020,Quarantined,1,Quarantined
+5752,40.402077,-104.727592,Meeker Elementary School,3rd Grade Cohort,23,4,10/29/2020,11/12/2020,Quarantined,1,Quarantined
+54,40.406437,-104.656998,Bella Romero,,,,10/30/2020,,Clear,1,Clear
+3173,40.427254,-104.68988,Fred Tjardes School of Innovation,,,,10/30/2020,,Clear,1,Clear
+52,40.381325,-104.748703,Heiman Elementary School,,,,10/30/2020,,Clear,1,Clear
+8467,40.395818,-104.676661,Salida del Sol Academy,,,,10/30/2020,,Clear,1,Clear
+9611,40.424239,-104.790297,West Ridge Academy,,,,10/30/2020,,Clear,1,Clear

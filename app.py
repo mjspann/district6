@@ -54,7 +54,7 @@ QL= px.line(x=afq['Bdate'], y=afq['dailyQ'])
 
 QL.update_layout(
     margin=dict(l=20,r=20,t=70,b=40),
-    title = "District's Daily Accumulative Quarantine Level with Start and End Dates",
+    title = "District's Daily Accumulative Level utilizing Quarantine Begin and End Dates",
     titlefont=dict(
             family='sans-serif, monospace',
             size=15,
@@ -97,7 +97,23 @@ PIE.update_layout(
 
 
 ##########################################################################################
-map = px.scatter_mapbox(df, 
+
+ac = df[['School','LATITUDE','LONGITUDE','Bdate', 'Indicator','siz']].copy() 
+
+schools = ac['School'].unique()   #numpy ndarray of just the school names
+
+sch = pd.DataFrame()
+ 
+for x in schools:
+     oneschoolsrows = ac[ac['School'] == x]       
+     oneschoolsrows['Bdate'] = pd.to_datetime(oneschoolsrows.Bdate)    
+     sorted = oneschoolsrows.sort_values(by=['Bdate']).sort_values(by=['Bdate'])   
+     j3 = sorted.iloc[[0,-1]] #  looking for the last row wchich indicates the date nearest to  today
+     j4 = j3.iloc[[1]]        ## reduce 2 row return to just 1 row again closed to today
+     sch = sch.append(j4)
+    
+
+map = px.scatter_mapbox(sch, 
                                 lat="LATITUDE", 
                                 lon="LONGITUDE",                    
                                 color="Indicator",                               
@@ -115,6 +131,7 @@ map = px.scatter_mapbox(df,
                                 zoom=10.5
                                 
                                 )
+
 map.update_layout(
     mapbox_style="open-street-map",
     mapbox=dict(
@@ -125,18 +142,18 @@ map.update_layout(
         )
     ),
     margin=dict(l=0,r=50,t=60,b=40),
-    title = "Evans Greeley School District 6 - Schools Status by color - October 7th 2020",
+    title = "Schools that have been Quarantined",
     titlefont=dict(
             family='sans-serif, monospace',
             size=15,
             color='#090909'
             ),
-    )
+)
 
 
 app.layout = dbc.Container(
                 html.Div([
-                html.H2('GREELEY PUBLIC SCHOOL DISTRICT 6 Covid-19'),
+                html.H1('GREELEY PUBLIC SCHOOL DISTRICT 6 Covid-19'),
                                  html.P('Open Source Independent look at published District covid data'),
                                  html.P('Data is copied from the districts website daily and subject to some human error'),                  
                   dbc.Row([
