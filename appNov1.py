@@ -36,26 +36,10 @@ af = sf.sort_values(by=['Bdate'])
 fig = px.line(x=af['Bdate'], y=af['QS'])
 
 fig.update_layout(
-    margin=dict(l=20,r=20,t=70,b=40),   
-    title = "Each Day's Quanantine Announcement Totals of Adults and Students, not Accumulative",
-    titlefont=dict(
-            family='Helvetica, monospace',
-            size=12,
-            color='#090909'
-            ),
-    xaxis = dict(
-            title='District opened on Aug 17',
-            titlefont=dict(
-                    family='Helvetica, monospace',
-                    size=12,
-                    color='#7f7f7f')
-                    ),
-    yaxis = dict(
-            title='Quarantine Level',
-            titlefont=dict(
-                    family='sans-serif, monospace',
-                    size=12,
-                    color='#7f7f7f')),
+    title = "Each Day's Quanantine Announcement Totals of Adults and Children, not Accumulative",
+    margin=dict(l=20,r=20,t=70,b=40),
+    xaxis = dict(title='District opened on Aug 17',titlefont=dict(family='Helvetica, monospace',size=12,color='#7f7f7f')),
+    yaxis = dict(title='Quarantine Level',titlefont=dict(family='Helvetica, monospace',size=12,color='#7f7f7f')),
     )
 ##################################################################################
 dfq = pd.read_csv("./data/daily_Q_num.csv")
@@ -72,8 +56,8 @@ QL.update_layout(
     margin=dict(l=20,r=20,t=70,b=40),
     title = "District's Daily Accumulative Level utilizing Quarantine Begin and End Dates",
     titlefont=dict(
-            family='Helvetica, monospace',
-            size=12,
+            family='sans-serif, monospace',
+            size=15,
             color='#090909'
             ),
     xaxis = dict(
@@ -166,56 +150,7 @@ map.update_layout(
             ),
 )
 
-#################################################################################################
-cc = df[['School','Bdate','QS']].copy() 
 
-schools = df['School'].unique()   #numpy ndarray of just the school names
-
-sch = pd.DataFrame()
-
-for x in schools:
-     srows = cc[cc['School'] == x]       
-     sch = sch.append(srows)
-   
-ips = sch.groupby(['School'])['QS'].count().to_frame('c').reset_index()
-
-se = pd.DataFrame(ips)                      #  Positive Results per School
-
-ses = se.sort_values('c')
-
-sebar = px.bar(x=ses['c'], y=ses['School'])
-
-sebar.update_layout(
-    margin=dict(l=20,r=20,t=70,b=40),
-    title = "Four schools in the District have experienced no positive covid test results ",
-    titlefont=dict(
-            family='sans-serif, monospace',
-            size=15,
-            color='#090909'
-            ),
-    xaxis = dict(
-        title='Number of Quarantines per School',
-        titlefont=dict(
-            family='Helvetica, monospace',
-            size=12,
-            color='#7f7f7f'
-            )
-        ),
-    yaxis = dict(
-        title='',
-        titlefont=dict(
-            family='Helvetica, monospace',
-            size=12,
-            color='#7f7f7f'
-            )
-        )
-    )  
-    
-
-
-
-
-#############################################################################################
 app.layout = dbc.Container(
                 html.Div([
                 html.H1('GREELEY PUBLIC SCHOOL DISTRICT 6 Covid-19'),
@@ -255,24 +190,10 @@ app.layout = dbc.Container(
                                   style={'height':'50vh'}
                                  )),
                           )
-                        ]),
-                    html.P(),      
-                    dbc.Row([
-                      dbc.Col(
-                          html.Div(
-                              dcc.Graph(
-                                  id="Map Graphic6",
-                                  figure=sebar, 
-                                  style={'height':'150vh'})
-                              )),
-                              ]
-                         
-                )
-                    
+                        ])
     ]),fluid = True
 )
 
 
 if __name__ == "__main__":
     app.run_server(host='0.0.0.0')
-    
