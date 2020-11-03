@@ -187,7 +187,7 @@ sebar = px.bar(x=ses['c'], y=ses['School'])
 
 sebar.update_layout(
     margin=dict(l=20,r=20,t=70,b=40),
-    title = "Four schools in the District have experienced no positive covid test results ",
+    title ='Only three schools out of 35 have had no CoVid cases',
     titlefont=dict(
             family='sans-serif, monospace',
             size=15,
@@ -195,6 +195,54 @@ sebar.update_layout(
             ),
     xaxis = dict(
         title='Number of Quarantines per School',
+        titlefont=dict(
+            family='Helvetica, monospace',
+            size=12,
+            color='#7f7f7f'
+            )
+        ),
+    yaxis = dict(
+        title='',
+        titlefont=dict(
+            family='Helvetica, monospace',
+            size=12,
+            color='#7f7f7f'
+            )
+        )
+    )  
+    
+
+
+
+
+#############################################################################################
+#################################################################################################
+csum = df[['School','Bdate','QT']].copy() 
+
+schs = pd.DataFrame()
+
+for x in schools:
+     srowss = csum[csum['School'] == x]       
+     schs = schs.append(srowss)
+   
+ipss = schs.groupby(['School'])['QT'].sum().to_frame('j').reset_index()
+
+sej = pd.DataFrame(ipss)                      #  Positive Results per School
+
+sess = sej.sort_values('j')
+
+sebars = px.bar(x=sess['j'], y=ses['School'])
+
+sebars.update_layout(
+    margin=dict(l=20,r=20,t=70,b=40),
+    title = "Some schools are blooming faster then other schools",
+    titlefont=dict(
+            family='sans-serif, monospace',
+            size=15,
+            color='#090909'
+            ),
+    xaxis = dict(
+        title='Number of people quarantied per school',
         titlefont=dict(
             family='Helvetica, monospace',
             size=12,
@@ -263,7 +311,14 @@ app.layout = dbc.Container(
                               dcc.Graph(
                                   id="Map Graphic6",
                                   figure=sebar, 
-                                  style={'height':'150vh'})
+                                  style={'height':'75vh'})
+                              )),
+                     dbc.Col(
+                          html.Div(
+                              dcc.Graph(
+                                  id="Map Graphic7",
+                                  figure=sebars, 
+                                  style={'height':'75vh'})
                               )),
                               ]
                          
