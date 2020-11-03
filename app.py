@@ -167,7 +167,7 @@ map.update_layout(
 )
 
 #################################################################################################
-cc = df[['School','Bdate','QS']].copy() 
+cc = df[['School','Edate','QT']].copy() 
 
 schools = df['School'].unique()   #numpy ndarray of just the school names
 
@@ -176,8 +176,9 @@ sch = pd.DataFrame()
 for x in schools:
      srows = cc[cc['School'] == x]       
      sch = sch.append(srows)
+
    
-ips = sch.groupby(['School'])['QS'].count().to_frame('c').reset_index()
+ips = sch.groupby(['School'])['Edate'].count().to_frame('c').reset_index()
 
 se = pd.DataFrame(ips)                      #  Positive Results per School
 
@@ -330,4 +331,4 @@ app.layout = dbc.Container(
 
 if __name__ == "__main__":
     app.run_server(host='0.0.0.0')
-    
+ 
