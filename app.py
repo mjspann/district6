@@ -236,7 +236,7 @@ sebars = px.bar(x=sess['j'], y=ses['School'])
 
 sebars.update_layout(
     margin=dict(l=20,r=20,t=70,b=40),
-    title = "Some schools are blooming faster then other schools",
+    title = "Some schools are blooming faster than other schools",
     titlefont=dict(
             family='sans-serif, monospace',
             size=15,
