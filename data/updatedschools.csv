@@ -100,6 +100,10 @@ School_Cod,LATITUDE,LONGITUDE,School,GradeLevel,QS,QA,Bdate,Edate,Indicator,siz,
 52,40.381325,-104.748703,Heiman Elementary School,Kindergarten and 1st Grade Cohorts,44,4,11/2/2020,11/13/2020,Quarantined,1,Quarantined,48
 1500,40.38118,-104.710983,Chappelow K-8 Magnet School,4th Grade Cohort,19,4,11/2/2020,11/16/2020,Quarantined,1,Quarantined,23
 7700,40.418301,-104.728958,Scott Elementary School,5th Grade Cohort,22,2,11/2/2020,11/16/2020,Quarantined,1,Quarantined,24
-54,40.406437,-104.656998,Bella Romero,,0,0,11/3/2020,,Clear,1,Clear,0
-3173,40.427254,-104.68988,Fred Tjardes School of Innovation,,0,0,11/3/2020,,Clear,1,Clear,0
-9611,40.424239,-104.790297,West Ridge Academy,,0,0,11/3/2020,,Clear,1,Clear,0
+988,40.396191,-104.720695,Brentwood Middle School,8th Grade Cohort,61,1,10/29/2020,11/12/2020,Quarantined,1,Quarantined,62
+3880,40.413918,-104.715622,Heath Middle School,8th Grade Cohort,22,6,11/3/2020,11/18/2020,Quarantined,1,Quarantined,28
+1875,40.39109,-104.721832,Frontier Elementary,,0,1,11/3/2020,11/18/2020,Quarantined,1,Quarantined,1
+6364,40.437233,-104.792343,Northridge High School,9th Grade Cohort BB,29,6,11/3/2020,11/16/2020,Quarantined,1,Quarantined,35
+54,40.406437,-104.656998,Bella Romero,,0,0,11/4/2020,,Clear,1,Clear,0
+3173,40.427254,-104.68988,Fred Tjardes School of Innovation,,0,0,11/4/2020,,Clear,1,Clear,0
+9611,40.424239,-104.790297,West Ridge Academy,,0,0,11/4/2020,,Clear,1,Clear,0
