@@ -272,9 +272,9 @@ app.layout = dbc.Container(
                       dbc.Col(                          
                           html.Div([
                                   html.H1(''),
-                                  html.H1('GREELEY PUBLIC SCHOOL DISTRICT 6 Covid-19'),
+                                  html.H1('GREELEY PUBLIC SCHOOL DISTRICT 6 Covid-19 unauthorized dashboard'),
                                   html.P('Open Source Independent look at published District covid data'),
-                                  html.P('Data is copied from the districts website daily and subject to some human error'),
+                                  html.P('Data is copied from the districts website daily and subject to human error'),
                               
                               ])),
                       dbc.Col(
@@ -282,9 +282,9 @@ app.layout = dbc.Container(
                                   html.H1(''),
                                   html.H1('November 5, 2020'),
                                   html.P(''),
-                                  html.P('The School District has 22,000 students, with 1631 quarintined at least once or 7% of the population'),
+                                  html.P('The School District has 22,000 students, with 1672 quarintined at least once or 7% of the population'),
                                   html.P('The School District has 27 distict operated schools and 6 Charter School for a total of 33 plus the District Office'),
-                                  html.P('All but 3 schools have been Quarantined - 88% have been quarantined'),
+                                  html.P('All but 2 schools have been Quarantined or closed or 88% have been quarantined'),
                                   ]
                                 )),
                         ]),
@@ -302,10 +302,11 @@ app.layout = dbc.Container(
                       dbc.Col(
                               html.Div([
                                  # html.H1(''),
-                                  html.P('About this Website'),
+                                  html.H5('About this Website'),
                                   html.P('The Author is Martin Spann, a Greeley resident retired as a teaching Assistant Professor from the Colorado School of Mines'),
                                   html.P('The Dashboard application is written in Python using Pandas, Plotly and Dash data science libraries'),
-                                  html.P("I'm a programmer learniing how to do this on a day to day basis."),
+                                  html.P("I'm a programmer learniing how to do this on a day to day basis and will be publishing to github.com shortly."),
+                                  html.P("so that others in the community can use this template for other districts."),
                               ]
                                 )),
                         ]),
