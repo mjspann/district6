@@ -280,7 +280,7 @@ app.layout = dbc.Container(
                       dbc.Col(
                               html.Div([
                                   html.H1(''),
-                                  html.H1('November 5, 2020'),
+                                  html.H1('November 16, 2020'),
                                   html.P(''),
                                   html.P('The School District has 22,000 students, with 1672 quarintined at least once or 7% of the population'),
                                   html.P('The School District has 27 distict operated schools and 6 Charter School for a total of 33 plus the District Office'),
