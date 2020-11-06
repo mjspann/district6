@@ -188,7 +188,7 @@ sebar = px.bar(x=ses['c'], y=ses['School'])
 
 sebar.update_layout(
     margin=dict(l=20,r=20,t=70,b=40),
-    title ='Only three schools out of 35 have had no CoVid cases',
+    title ='Only one schools out of 35 have had no CoVid cases',
     titlefont=dict(
             family='sans-serif, monospace',
             size=15,
@@ -217,10 +217,10 @@ sebar.update_layout(
 
 
 #############################################################################################
-#################################################################################################
+################################################################################################# Blooming
 csum = df[['School','Bdate','QT']].copy() 
 
-schs = pd.DataFrame()
+schs = pd.DataFrame(index=None)
 
 for x in schools:
      srowss = csum[csum['School'] == x]       
@@ -228,11 +228,11 @@ for x in schools:
    
 ipss = schs.groupby(['School'])['QT'].sum().to_frame('j').reset_index()
 
-sej = pd.DataFrame(ipss)                      #  Positive Results per School
+sej = pd.DataFrame(ipss,index=None)                      #  Positive Results per School
 
 sess = sej.sort_values('j')
 
-sebars = px.bar(x=sess['j'], y=ses['School'])
+sebars = px.bar(x=sess['j'], y=sess['School'])
 
 sebars.update_layout(
     margin=dict(l=20,r=20,t=70,b=40),
@@ -372,4 +372,4 @@ app.layout = dbc.Container(
 
 if __name__ == "__main__":
     app.run_server(host='0.0.0.0')
- 
+
