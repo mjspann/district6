@@ -104,7 +104,7 @@ School_Cod,LATITUDE,LONGITUDE,School,GradeLevel,QS,QA,Bdate,Edate,Indicator,siz,
 1875,40.39109,-104.721832,Frontier Elementary,,0,1,11/3/2020,11/18/2020,Quarantined,1,Quarantined,1
 3880,40.413918,-104.715622,Heath Middle School,8th Grade Cohort,22,6,11/3/2020,11/18/2020,Quarantined,1,Quarantined,28
 6364,40.437233,-104.792343,Northridge High School,9th Grade Cohort BB,29,6,11/3/2020,11/16/2020,Quarantined,1,Quarantined,35
-9611,40.424239,-104.790297,West Ridge Academy,Remote Learning,0,0,11/3/2020,11/16/2020,Clear,1,Closed,0
+9611,40.424239,-104.790297,West Ridge Academy,Remote Learning,0,0,11/3/2020,11/16/2020,Closed,1,Closed,0
 3162,40.424347,-104.735077,Franklin Middle School,8th Grade Cohort,18,4,11/4/2020,11/16/2020,Quarantined,1,Quarantined,22
 3162,40.424347,-104.735077,Franklin Middle School,7th Grade Cohort,21,3,11/4/2020,11/16/2020,Quarantined,1,Quarantined,24
 3610,40.415386,-104.701805,Greeley Central High School,Football,68,6,11/4/2020,11/16/2020,Quarantined,1,Quarantined,74
