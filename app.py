@@ -14,8 +14,10 @@ import plotly.express as px
 import plotly.graph_objs as go
 import plotly
 
-
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+#app = dash.Dash(__name__)
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.CERULEAN])
+#app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+#app = dash.Dash(__name__, external_stylesheets='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
 
 server = app.server
 #px.set_mapbox_access_token("pk.eyJ1IjoibWpzcGFubiIsImEiOiJja2ZmaWEwOG8wYzRuMnJwaW1kd2tnNzlkIn0.SoDj7lwJ8uCgC01Is9_IlA")
@@ -95,10 +97,10 @@ QL.update_layout(
     )
    
 #########################################################################################
-sf1 = df1.groupby('School', as_index=False)['QS'].sum()
+sf1 = df1.groupby('School', as_index=False)['QT'].sum()
 
 names=sf1['School']
-values=sf1['QS']
+values=sf1['QT']
 
 PIE = px.pie(sf1,names=names,values=values)
 
@@ -188,7 +190,7 @@ sebar = px.bar(x=ses['c'], y=ses['School'])
 
 sebar.update_layout(
     margin=dict(l=20,r=20,t=70,b=40),
-    title ='Only one schools out of 35 have had no CoVid cases',
+    title ='Only one school out of the 34 is free of covid cases',
     titlefont=dict(
             family='sans-serif, monospace',
             size=15,
@@ -266,7 +268,7 @@ sebars.update_layout(
 
 #############################################################################################
 app.layout = dbc.Container(
-                html.Div([
+                html.Div([ 
                 html.H1(''),
                   dbc.Row([
                       dbc.Col(                          
@@ -288,46 +290,41 @@ app.layout = dbc.Container(
                                   ]
                                 )),
                         ]),
-                  html.P(),    
+                    html.P(),    
                     dbc.Row([
-                      dbc.Col(                          
-                          html.Div([
-                                  #html.H1(''),
-                                  html.H5('Discription of data'),
-                                  html.P('Indexed by School Names including the District Office'),
-                                  html.P('A Row of data is created when a student or staff tests positive for covid'),
-                                   html.P('The School name, number of Students, number of Staff, beginning date and end date of Quarintined Period is recorded'),
-                                  html.P('School Closings are recorded seperately and manually added to the data as a status indicator'),
-                              ])),
-                      dbc.Col(
-                              html.Div([
-                                 # html.H1(''),
-                                  html.H5('About this Website'),
-                                  html.P('The Author is Martin Spann, a Greeley resident retired as a teaching Assistant Professor from the Colorado School of Mines'),
-                                  html.P('The Dashboard application is written in Python using Pandas, Plotly and Dash data science libraries'),
-                                  html.P("I'm a programmer learniing how to do this on a day to day basis and will be publishing to github.com shortly."),
-                                  html.P("so that others in the community can use this template for other districts."),
-                              ]
-                                )),
-                        ]),
-                  html.P(),    
-                    dbc.Row([
-                      dbc.Col(                          
-                          html.Div(                             
+                      dbc.Col(       
+                          html.Div( 
                               dcc.Graph(
                                   id="Map Graphic1",
                                   figure=fig, 
                                   style={'height':'25vh'})
                               )),
-                      dbc.Col(
-                              html.Div(
+                        dbc.Col(
+                            html.Div(
                               dcc.Graph(
                                   id="Map Graphic2",
                                   figure=QL, 
                                   style={'height':'25vh'})
                                 )),
                         ]),
-                  html.P(),      
+                  dbc.Row([
+                      dbc.Col(                          
+                          html.Div([
+                                 
+                                  html.P('The Line Graph above shows the frequency of covid activity daily within the District'),
+                                  html.P("The graph's x axis is the Begin Date and the y axis is the district population number affected"),
+                                
+                              
+                              ])),
+                      dbc.Col(
+                              html.Div([
+                                  
+                                  html.P("The line Graph above illustrates growth of the infection withiin the District's Community"),
+                                  
+                                  ]
+                                )),
+                        ]),
+                 html.P(),      
                   dbc.Row([
                       dbc.Col(
                           html.Div(
@@ -346,6 +343,20 @@ app.layout = dbc.Container(
                                  )),
                           )
                         ]),
+                     dbc.Row([
+                      dbc.Col( 
+                        
+                          html.Div([                                 
+                                  html.H6('The PIE Chart above is a work in progress.  Not sure this is the right way to show school and Total Quantined persons'),
+                                
+                                  
+                              ])),
+                      dbc.Col(
+                       
+                            html.Div([                                
+                                  html.H6("This is a Map of the School district with eaxh school represented by a dot.  The color of the dot conveys a message Illustrated by the Status Tag")                                 
+                                 ])),
+                        ]),
                     html.P(),      
                     dbc.Row([
                       dbc.Col(
@@ -362,14 +373,27 @@ app.layout = dbc.Container(
                                   figure=sebars, 
                                   style={'height':'75vh'})
                               )),
+                              ]),
+                    html.P(),    
+                    dbc.Row([
+                      dbc.Col(                          
+                          html.Div([
+                                  #html.H1(''),
+                                  html.H6('Discription of data'),
+                                  html.P('Data is published most week days by the District on their website and is copied into a local CSV file'),
+                                  html.P('Columns - School, lon, lat, gradelevel, quarintined students, adults begin date of quarintine, end date of quarintine period'),
+                                   html.P('The application is written in Python using Pandas, Plotly and Dash data science libraries'),
+                              ])),
+                      dbc.Col(
+                              html.Div([
+                                 # html.H1(''),
+                                  html.H5('About this Website'),
+                                  html.P('The Author is Martin Spann, a Greeley resident retired as a teaching Assistant Professor from the Colorado School of Mines'),
                               ]
-                         
-                )
-                    
+                                )),
+                        ]),
     ]),fluid = True
 )
 
-
 if __name__ == "__main__":
     app.run_server(host='0.0.0.0')
-
