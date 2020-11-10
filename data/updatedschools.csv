@@ -105,6 +105,7 @@ School_Cod,LATITUDE,LONGITUDE,School,GradeLevel,QS,QA,Bdate,Edate,Indicator,siz,
 3880,40.413918,-104.715622,Heath Middle School,8th Grade Cohort,22,6,11/3/2020,11/18/2020,Quarantined,1,Quarantined,28
 6364,40.437233,-104.792343,Northridge High School,9th Grade Cohort BB,29,6,11/3/2020,11/16/2020,Quarantined,1,Quarantined,35
 9611,40.424239,-104.790297,West Ridge Academy,Remote Learning,0,0,11/3/2020,11/16/2020,Closed,1,Closed,0
+6364,40.437233,-104.792343,Northridge High School,9th and 11th Grade Cohort,51,1,11/3/2020,11/17/2020,Quarantined,1,Quarantined,44
 3162,40.424347,-104.735077,Franklin Middle School,8th Grade Cohort,18,4,11/4/2020,11/16/2020,Quarantined,1,Quarantined,22
 3162,40.424347,-104.735077,Franklin Middle School,7th Grade Cohort,21,3,11/4/2020,11/16/2020,Quarantined,1,Quarantined,24
 3610,40.415386,-104.701805,Greeley Central High School,Football,68,6,11/4/2020,11/16/2020,Quarantined,1,Quarantined,74
@@ -130,7 +131,12 @@ School_Cod,LATITUDE,LONGITUDE,School,GradeLevel,QS,QA,Bdate,Edate,Indicator,siz,
 3162,40.424347,-104.735077,Franklin Middle School,8th Grade Cohort,41,1,11/7/2020,11/17/2020,Quarantined,1,Quarantined,42
 3880,40.413918,-104.715622,Heath Middle School,7th Grade Cohort,24,6,11/7/2020,11/30/2020,Quarantined,1,Quarantined,30
 3614,40.39954,-104.735039,Greeley West High School,Mixed Cohort,23,4,11/7/2020,11/13/2020,Quarantined,1,Quarantined,22
+3162,40.424347,-104.735077,Franklin Middle School,7th Grade Cohort,41,1,11/7/2020,11/17/2020,Closed,1,Quarantined,42
+7814,40.426685,-104.746429,Shawsheen Elementary,"Kindergarden, 5th Grade Cohort",52,5,11/8/2020,11/30/2020,Quarantined,1,Quarantined,57
 1875,40.39109,-104.721832,Frontier Elementary,K-5 Cohorts,0,3,11/9/2020,11/30/2020,Quarantined,1,Quarantined,3
 2703,40.406967,-104.76828,Early Childhood Center at Aims Community College,Preschool,15,5,11/9/2020,11/30/2020,Quarantined,1,Quarantined,20
-1875,40.39109,-104.721832,Frontier Elementary,7th Grade Cohort,22,8,11/9/2020,11/13/2020,Closed,1,Quarantined,30
-3173,40.427254,-104.68988,Fred Tjardes School of Innovation,,0,0,11/10/2020,,Clear,1,Clear,0
+1875,40.39109,-104.721832,Frontier Elementary,7th Grade Cohort,22,8,11/9/2020,11/13/2020,Quarantined,1,Quarantined,30
+53,40.437634,-104.792267,Winograd K-8 Elementary School,Kindergarted Cohort,21,1,11/9/2020,11/19/2020,Quarantined,1,Quarantined,22
+54,40.406437,-104.656998,Bella Romero,4th and 5th Grade Cohorts,41,7,11/9/2020,11/30/2020,Closed,1,Quarantined,48
+5752,40.402077,-104.727592,Meeker Elementary School,4th Grade Cohort,23,2,11/9/2020,11/30/2020,Quarantined,1,Quarantined,25
+3173,40.427254,-104.68988,Fred Tjardes School of Innovation,,0,0,11/11/2020,,Clear,1,Clear,0
