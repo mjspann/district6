@@ -130,8 +130,8 @@ School_Cod,LATITUDE,LONGITUDE,School,GradeLevel,QS,QA,Bdate,Edate,Indicator,siz,
 3162,40.424347,-104.735077,Franklin Middle School,6th Grade Cohort,21,1,11/7/2020,11/19/2020,Quarantined,1,Quarantined,22
 3162,40.424347,-104.735077,Franklin Middle School,8th Grade Cohort,41,1,11/7/2020,11/17/2020,Quarantined,1,Quarantined,42
 3880,40.413918,-104.715622,Heath Middle School,7th Grade Cohort,24,6,11/7/2020,11/30/2020,Quarantined,1,Quarantined,30
-3614,40.39954,-104.735039,Greeley West High School,Mixed Cohort,23,4,11/7/2020,11/13/2020,Quarantined,1,Quarantined,22
-3162,40.424347,-104.735077,Franklin Middle School,7th Grade Cohort,41,1,11/7/2020,11/17/2020,Closed,1,Quarantined,42
+3614,40.39954,-104.735039,Greeley West High School,Mixed Cohort,23,4,11/7/2020,11/13/2020,Closed,1,Quarantined,22
+3162,40.424347,-104.735077,Franklin Middle School,7th Grade Cohort,41,1,11/7/2020,11/17/2020,Quarantined,1,Quarantined,42
 7814,40.426685,-104.746429,Shawsheen Elementary,"Kindergarden, 5th Grade Cohort",52,5,11/8/2020,11/30/2020,Quarantined,1,Quarantined,57
 1875,40.39109,-104.721832,Frontier Elementary,K-5 Cohorts,0,3,11/9/2020,11/30/2020,Quarantined,1,Quarantined,3
 2703,40.406967,-104.76828,Early Childhood Center at Aims Community College,Preschool,15,5,11/9/2020,11/30/2020,Quarantined,1,Quarantined,20
@@ -139,4 +139,17 @@ School_Cod,LATITUDE,LONGITUDE,School,GradeLevel,QS,QA,Bdate,Edate,Indicator,siz,
 53,40.437634,-104.792267,Winograd K-8 Elementary School,Kindergarted Cohort,21,1,11/9/2020,11/19/2020,Quarantined,1,Quarantined,22
 54,40.406437,-104.656998,Bella Romero,4th and 5th Grade Cohorts,41,7,11/9/2020,11/30/2020,Closed,1,Quarantined,48
 5752,40.402077,-104.727592,Meeker Elementary School,4th Grade Cohort,23,2,11/9/2020,11/30/2020,Quarantined,1,Quarantined,25
+3162,40.424347,-104.735077,Franklin Middle School,6th Grade Cohort,21,4,11/9/2020,11/30/2020,Closed,1,Quarantined,25
+2222,40.381214,-104.714149,Dos Rios Elementary School,5th Grade Cohort,18,2,11/9/2020,11/30/2020,Quarantined,1,Quarantined,20
+2850,40.410126,-104.787331,University Schools,5th Grade Cohort,23,2,11/9/2020,11/20/2020,Quarantined,1,Quarantined,25
+2850,40.410126,-104.787331,University Schools,7th Grade Cohort,18,2,11/9/2020,11/20/2020,Quarantined,1,Quarantined,20
+2850,40.410126,-104.787331,University Schools,9th Grade Cohort,34,5,11/9/2020,11/20/2020,Quarantined,1,Quarantined,39
+52,40.381325,-104.748703,Heiman Elementary School,Mixed Cohort,7,4,11/9/2020,11/30/2020,Quarantined,1,Quarantined,11
+7700,40.418301,-104.728958,Scott Elementary School,4th Grade Cohort,21,2,11/10/2020,11/30/2020,Quarantined,1,Quarantined,23
+8965,40.406124,-104.768265,Union Colony Schools,7th Grade ,70,5,11/10/2020,11/30/2020,Quarantined,1,Quarantined,134
+1500,40.38118,-104.710983,Chappelow K-8 Magnet School,3rd and 4th Grade Cohort,36,0,11/10/2020,11/16/2020,Quarantined,1,Quarantined,36
+1500,40.38118,-104.710983,Chappelow K-8 Magnet School,7th Grade Cohort,19,4,11/10/2020,11/30/2020,Quarantined,1,Quarantined,23
+1500,40.38118,-104.710983,Chappelow K-8 Magnet School,8th Grade Cohort,25,4,11/10/2020,11/30/2020,Quarantined,1,Quarantined,29
+4356,40.39595,-104.711136,Jackson Elementary,Kindergarden 2nd 3rd Grade Cohorts,54,3,11/10/2020,11/30/2020,Closed,1,Quarantined,57
+8467,40.395818,-104.676661,Salida del Sol Academy,1st Grade Cohort,20,4,11/10/2020,12/1/2020,Quarantined,1,Quarantined,59
 3173,40.427254,-104.68988,Fred Tjardes School of Innovation,,0,0,11/11/2020,,Clear,1,Clear,0

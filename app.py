@@ -12,7 +12,7 @@ import dash_html_components as html
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objs as go
-import plotly
+
 
 #app = dash.Dash(__name__)
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.CERULEAN])
@@ -168,8 +168,8 @@ map.update_layout(
             ),
 )
 
-#################################################################################################
-cc = df[['School','Edate','QT']].copy() 
+######################################################## FIRST BAR GRAPH ################
+cc = df[['School','Bdate','QT']].copy() 
 
 schools = df['School'].unique()   #numpy ndarray of just the school names
 
@@ -180,7 +180,7 @@ for x in schools:
      sch = sch.append(srows)
 
    
-ips = sch.groupby(['School'])['Edate'].count().to_frame('c').reset_index()
+ips = sch.groupby(['School'])['Bdate'].count().to_frame('c').reset_index()
 
 se = pd.DataFrame(ips)                      #  Positive Results per School
 
@@ -218,8 +218,7 @@ sebar.update_layout(
 
 
 
-#############################################################################################
-################################################################################################# Blooming
+################################################################# Blooming
 csum = df[['School','Bdate','QT']].copy() 
 
 schs = pd.DataFrame(index=None)
@@ -388,12 +387,14 @@ app.layout = dbc.Container(
                               html.Div([
                                  # html.H1(''),
                                   html.H5('About this Website'),
-                                  html.P('The Author is Martin Spann, a Greeley resident retired as a teaching Assistant Professor from the Colorado School of Mines'),
+                                  html.P('The Author is Martin Spann, a Greeley resident retired as a Teaching Assistant Professor, Colorado School of Mines'),
                               ]
                                 )),
                         ]),
     ]),fluid = True
 )
+                      
+                      
 
 if __name__ == "__main__":
     app.run_server(host='0.0.0.0')
