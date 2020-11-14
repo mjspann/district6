@@ -22,16 +22,23 @@ df = pd.read_csv('./data/updatedschools.csv', index_col=0, parse_dates=True)
 
 ac = df[['School','LATITUDE','LONGITUDE','Bdate', 'Indicator','siz']].copy() 
 
-school = ac['School'].unique()   #numpy ndarray of just the school names
-"""
-bd = ac['Bdate'].unique() 
+#dg = df.groupby('Bdate', as_index=False)['School','LATITUDE','LONGITUDE','Bdate','Indicator','siz'].agg()
+
+ac['Bdate'] = pd.to_datetime(ac.Bdate)
+
+sdg = ac.sort_values(by=['Bdate'])
+
+sdg['Bdate'] = sdg['Bdate'].astype(str)
+
+school = df['School'].unique()   #numpy ndarray of just the school names
+
 #######################################################   Animation
-map1 = px.scatter_mapbox(ac, 
+map1 = px.scatter_mapbox(sdg, 
                                 lat="LATITUDE", 
                                 lon="LONGITUDE",                    
                                 color="siz", 
                                 animation_frame="Bdate",
-                                #animation_group="School",
+                                animation_group="Bdate",
                                 hover_data={'LATITUDE': False,
                                             'LONGITUDE': False,
                                             'siz':False,
@@ -39,14 +46,15 @@ map1 = px.scatter_mapbox(ac,
                                             'School': True
                                             },
                                 color_discrete_map={'1': "blue",
-                                                    'Quarantined': "red",
-                                                    'Clear': "green"},
+                                                    '2': "red",
+                                                    '3': "green"},
                                 size="siz",
-                                zoom=10.5
-                                
+                                zoom=11.5                                
                                 )
 
+
 map1.update_layout(
+    showlegend=False,
     mapbox_style="open-street-map",
     mapbox=dict(
         bearing=0,
@@ -64,7 +72,6 @@ map1.update_layout(
             ),
 )
 
-"""
 
 ############################################################  Static Map with markers 
 map2 = px.scatter_mapbox(ac, 
@@ -76,12 +83,7 @@ map2 = px.scatter_mapbox(ac,
                                             'Indicator': False,
                                             'School': False,
                                             },
-                                
-                               
-                                
-                                
-                                zoom=10.5
-                                
+                                zoom=11.5                                
                                 )
 
 map2.update_layout(
@@ -102,7 +104,7 @@ map2.update_layout(
             ),
 )
 
-#map1.add_trace(map2.data[0])
+map1.add_trace(map2.data[0])
 ##################################################
 
 
@@ -114,7 +116,7 @@ app.layout = dbc.Container(
                           html.Div(
                               dcc.Graph(
                                   id="Map Graphic5",
-                                  figure=map2, 
+                                  figure=map1, 
                                   style={'height':'100vh'}
                                  )),
                           )
@@ -127,4 +129,3 @@ app.layout = dbc.Container(
 
 if __name__ == "__main__":
     app.run_server(host='0.0.0.0')
-

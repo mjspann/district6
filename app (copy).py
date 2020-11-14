@@ -14,11 +14,16 @@ import plotly.express as px
 import plotly.graph_objs as go
 
 
+#app = dash.Dash(__name__)
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.CERULEAN])
+#app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+#app = dash.Dash(__name__, external_stylesheets='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
 
 server = app.server
+#px.set_mapbox_access_token("pk.eyJ1IjoibWpzcGFubiIsImEiOiJja2ZmaWEwOG8wYzRuMnJwaW1kd2tnNzlkIn0.SoDj7lwJ8uCgC01Is9_IlA")
 
 df = pd.read_csv('./data/updatedschools.csv', index_col=0, parse_dates=True)
+
 
 ##########################################################################################
 
@@ -256,87 +261,6 @@ sebars.update_layout(
         )
     )  
     
-######################################################   Animation
-        
-ac['Bdate'] = pd.to_datetime(ac.Bdate)
-
-sdg = ac.sort_values(by=['Bdate'])
-
-sdg['Bdate'] = sdg['Bdate'].astype(str)        
-
-map1 = px.scatter_mapbox(sdg, 
-                                lat="LATITUDE", 
-                                lon="LONGITUDE",                    
-                                color="siz", 
-                                animation_frame="Bdate",
-                                animation_group="Bdate",
-                                hover_data={'LATITUDE': False,
-                                            'LONGITUDE': False,
-                                            'siz':False,
-                                            'Indicator': False,
-                                            'School': True
-                                            },
-                                color_discrete_map={'1': "blue",
-                                                    '2': "red",
-                                                    '3': "green"},
-                                size="siz",
-                                zoom=11.5                                
-                                )
-
-
-map1.update_layout(
-    showlegend=False,
-    mapbox_style="open-street-map",
-    mapbox=dict(
-        bearing=0,
-        center=go.layout.mapbox.Center(
-            lat=40.41,
-            lon=-104.75
-        )
-    ),
-    margin=dict(l=0,r=50,t=60,b=40),
-    title = "Schools that have been Quarantined",
-    titlefont=dict(
-            family='sans-serif, monospace',
-            size=15,
-            color='#090909'
-            ),
-)
-
-
-############################################################  Static Map with markers 
-map2 = px.scatter_mapbox(ac, 
-                                lat="LATITUDE", 
-                                lon="LONGITUDE",                    
-                                 hover_data={'LATITUDE': False,
-                                            'LONGITUDE': False,
-                                            'siz':False,
-                                            'Indicator': False,
-                                            'School': False,
-                                            },
-                                zoom=11.5                                
-                                )
-
-map2.update_layout(
-   mapbox_style="open-street-map",
-    mapbox=dict(
-        bearing=0,
-        center=go.layout.mapbox.Center(
-            lat=40.41,
-            lon=-104.75
-        )
-    ),
-    margin=dict(l=0,r=50,t=60,b=40),
-    title = "Schools that have been Quarantined",
-    titlefont=dict(
-            family='sans-serif, monospace',
-            size=15,
-            color='#090909'
-            ),
-)
-
-map1.add_trace(map2.data[0])
-##################################################
 
 
 
@@ -351,16 +275,17 @@ app.layout = dbc.Container(
                                   html.H1(''),
                                   html.H1('GREELEY PUBLIC SCHOOL DISTRICT 6 Covid-19 unauthorized dashboard'),
                                   html.P('Open Source Independent look at published District covid data'),
-                                  html.P('Data is copied from the districts website daily - no warranty '),
+                                  html.P('Data is copied from the districts website daily and subject to human error'),
                               
                               ])),
                       dbc.Col(
                               html.Div([
                                   html.H1(''),
-                                  html.H1('November 13, 2020'),
+                                  html.H1('November 12, 2020'),
                                   html.P(''),
                                   html.P('The School District has 22,000 students, with 2375 quarintined at least once or 11% of the population'),
-                                  
+                                  html.P('The School District has 27 distict operated schools and 6 Charter School for a total of 33 plus the District Office'),
+                                  html.P('All but 1 schools have been Quarantined or closed or 88% have been quarantined'),
                                   ]
                                 )),
                         ]),
@@ -428,7 +353,7 @@ app.layout = dbc.Container(
                       dbc.Col(
                        
                             html.Div([                                
-                                  html.H6("This is a Map of the School district with each school represented by a dot.  The color of the dot conveys a message Illustrated by the Status Tag")                                 
+                                  html.H6("This is a Map of the School district with eaxh school represented by a dot.  The color of the dot conveys a message Illustrated by the Status Tag")                                 
                                  ])),
                         ]),
                     html.P(),      
@@ -446,16 +371,6 @@ app.layout = dbc.Container(
                                   id="Map Graphic7",
                                   figure=sebars, 
                                   style={'height':'75vh'})
-                              )),
-                              ]),
-                    html.P(),      
-                    dbc.Row([
-                     dbc.Col(
-                          html.Div(
-                              dcc.Graph(
-                                  id="Map Graphic73",
-                                  figure=map1, 
-                                  style={'height':'100vh'})
                               )),
                               ]),
                     html.P(),    
