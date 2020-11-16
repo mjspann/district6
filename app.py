@@ -14,7 +14,7 @@ import plotly.express as px
 import plotly.graph_objs as go
 
 
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.CERULEAN])
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 server = app.server
 
@@ -351,15 +351,14 @@ app.layout = dbc.Container(
                                   html.H1(''),
                                   html.H1('GREELEY PUBLIC SCHOOL DISTRICT 6 Covid-19 unauthorized dashboard'),
                                   html.P('Open Source Independent look at published District covid data'),
-                                  html.P('Data is copied from the districts website daily - no warranty '),
+                                  html.P('Data is copied from the districts website daily with no warranty '),
                               
                               ])),
                       dbc.Col(
                               html.Div([
                                   html.H1(''),
-                                  html.H1('November 13, 2020'),
+                                  html.H1('School District 6 opened on September 17, 2020 and moved to remote learning on November 13, 2020'),
                                   html.P(''),
-                                  html.P('The School District has 22,000 students, with 2375 quarintined at least once or 11% of the population'),
                                   
                                   ]
                                 )),
@@ -386,14 +385,14 @@ app.layout = dbc.Container(
                           html.Div([
                                  
                                   html.P('The Line Graph above shows the frequency of covid activity daily within the District'),
-                                  html.P("The graph's x axis is the Begin Date and the y axis is the district population number affected"),
+                            
                                 
                               
                               ])),
                       dbc.Col(
                               html.Div([
                                   
-                                  html.P("The line Graph above illustrates growth of the infection withiin the District's Community"),
+                                  html.P("The line Graph above illustrates growth of the infection within the District's Schools"),
                                   
                                   ]
                                 )),
@@ -421,14 +420,14 @@ app.layout = dbc.Container(
                       dbc.Col( 
                         
                           html.Div([                                 
-                                  html.H6('The PIE Chart above is a work in progress.  Not sure this is the right way to show school and Total Quantined persons'),
+                                  html.P('The PIE Chart above is a work in progress.  Not sure this is the right way to show school and Total Quantined persons'),
                                 
                                   
                               ])),
                       dbc.Col(
                        
                             html.Div([                                
-                                  html.H6("This is a Map of the School district with each school represented by a dot.  The color of the dot conveys a message Illustrated by the Status Tag")                                 
+                                  html.P("This is a Map of the School district with each school represented by a dot.  The color of the dot conveys a message Illustrated by the Status Tag")                                 
                                  ])),
                         ]),
                     html.P(),      
