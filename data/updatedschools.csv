@@ -1,45 +1,141 @@
 School_Cod,LATITUDE,LONGITUDE,School,GradeLevel,QS,QA,Bdate,Edate,Indicator,siz,Col,QT
-6774,40.429775,-104.701637,Billie Martinez Elementary,1st Grade Cohort,19,5,9/4/2020,9/16/2020,Quarantined,1,Quarantined,24
-3610,40.415386,-104.701805,Greeley Central High School,Mixed Cohort,32,5,9/4/2020,9/16/2020,Quarantined,1,Quarantined,37
-6774,40.429775,-104.701637,Billie Martinez Elementary,2nd Grade Cohort,36,5,9/30/2020,10/13/2020,Quarantined,1,Quarantined,41
-5660,40.427559,-104.766296,McAuliffe STEM Academy,7th Grade Cohort,19,5,9/3/2020,9/14/2020,Quarantined,1,Quarantined,24
-2222,40.381214,-104.714149,Dos Rios Elementary School,5th Grade Cohort,17,4,9/29/2020,10/8/2020,Quarantined,1,Quarantined,21
-3162,40.424347,-104.735077,Franklin Middle School,6th Grade Cohort,16,0,9/28/2020,10/8/2020,Quarantined,1,Closed,16
-4438,40.377541,-104.784508,Prairie Heights Middle School,8th Grade Cohort,8,2,9/28/2020,10/7/2020,Quarantined,1,Quarantined,10
-4356,40.39595,-104.711136,Jackson Elementary,5th Grade Cohort,18,4,9/25/2020,10/2/2020,Quarantined,1,Quarantined,22
-3162,40.424347,-104.735077,Franklin Middle School,8th Grade Cohort,18,4,9/24/2020,10/8/2020,Quarantined,1,Closed,22
-3162,40.424347,-104.735077,Franklin Middle School,8th Grade Cohort,20,4,9/24/2020,10/8/2020,Quarantined,1,Closed,24
-1875,40.39109,-104.721832,Frontier Elementary,Mixed Cohort,22,5,9/24/2020,9/8/2020,Quarantined,1,Quarantined,27
-1875,40.412838,-104.787861,Frontier High School,Mixed Cohort,22,4,9/24/2020,10/8/2020,Quarantined,1,Quarantined,26
-3610,40.415386,-104.701805,Greeley Central High School,Mixed Cohort,14,2,9/24/2020,10/14/2020,Quarantined,1,Quarantined,16
-4425,40.417755,-104.683754,Jefferson Junior/Senior High,B Cohort,29,8,9/24/2020,10/14/2020,Quarantined,1,Clear,37
-3162,40.424347,-104.735077,Franklin Middle School,7th Grade Cohort,20,4,9/21/2020,10/5/2020,Quarantined,1,Closed,24
-53,40.437634,-104.792267,Winograd K-8 Elementary School,5th Grade Cohort,24,1,9/21/2020,9/29/2020,Quarantined,1,Quarantined,25
+1875,40.39109,-104.721832,Frontier Elementary,5th Grade Cohort,17,2,8/20/2020,9/8/2020,Quarantined,1,Quarantined,19
+3162,40.424347,-104.735077,Franklin Middle School,8th Grade Cohort,19,4,8/25/2020,9/9/2020,Quarantined,1,Closed,23
+4356,40.39595,-104.711136,Jackson Elementary,3rd Grade Cohort,18,5,8/25/2020,9/9/2020,Quarantined,1,Quarantined,23
+3162,40.424347,-104.735077,Franklin Middle School,6th Grade Cohort,19,6,8/26/2020,9/10/2020,Quarantined,1,Closed,25
+2703,40.406967,-104.76828,Early Childhood Center at Aims Community College,Preschool,39,3,8/28/2020,9/15/2020,Quarantined,1,Quarantined,42
+4438,40.377541,-104.784508,Prairie Heights Middle School,8th Grade Cohort,19,4,8/28/2020,9/10/2020,Quarantined,1,Quarantined,23
+4356,40.39595,-104.711136,Jackson Elementary,4th Grade Cohort,22,3,8/29/2020,9/14/2020,Quarantined,1,Quarantined,25
+7814,40.426685,-104.746429,Shawsheen Elementary,2nd Grade Cohort,17,5,8/30/2020,9/14/2020,Quarantined,1,Quarantined,22
+2657,40.420017,-104.771461,Early College Academy,10th Grade Cohort,18,4,8/31/2020,9/8/2020,Quarantined,1,Quarantined,22
+3162,40.424347,-104.735077,Franklin Middle School,8th Grade Cohort,24,5,9/1/2020,9/16/2020,Quarantined,1,Closed,29
 3610,40.415386,-104.701805,Greeley Central High School,Mixed Cohort,60,2,9/2/2020,9/12/2020,Quarantined,1,Quarantined,62
 5412,40.427505,-104.719116,Madison Elementary,4 Cohorts(2-1st Grade & 2-5th Grade),65,11,9/2/2020,9/18/2020,Quarantined,1,Quarantined,76
 6364,40.437233,-104.792343,Northridge High School,Mixed Cohort,38,6,9/2/2020,9/17/2020,Quarantined,1,Quarantined,44
-2850,40.410126,-104.787331,University Schools,7th Grade Cohort,16,8,9/19/2020,10/5/2020,Quarantined,1,Quarantined,24
-53,40.437634,-104.792267,Winograd K-8 Elementary School,3rd Grade Cohort,20,4,9/17/2020,10/1/2020,Quarantined,1,Quarantined,24
-4356,40.39595,-104.711136,Jackson Elementary,3rd Grade Cohort,16,3,9/16/2020,9/30/2020,Quarantined,1,Quarantined,19
-5620,40.419445,-104.711403,Maplewood Elementary School,5th Grade Cohort,23,4,9/14/2020,9/23/2020,Quarantined,1,Quarantined,27
-3880,40.413918,-104.715622,Heath Middle School,8th Grade and Algebra Cohort,47,7,9/13/2020,9/21/2020,Quarantined,1,Quarantined,54
-1,40.406967,-104.76828,ECC Aims District 6 Preschool,1 Preschool Cohort,30,5,9/11/2020,9/25/2020,Quarantined,1,Quarantined,35
+5660,40.427559,-104.766296,McAuliffe STEM Academy,7th Grade Cohort,19,5,9/3/2020,9/14/2020,Quarantined,1,Quarantined,24
+6774,40.429775,-104.701637,Billie Martinez Elementary,1st Grade Cohort,19,5,9/4/2020,9/16/2020,Quarantined,1,Quarantined,24
+3610,40.415386,-104.701805,Greeley Central High School,Mixed Cohort,32,5,9/4/2020,9/16/2020,Quarantined,1,Quarantined,37
 3162,40.424347,-104.735077,Franklin Middle School,6th Grade Cohort,18,5,9/10/2020,9/24/2020,Quarantined,1,Closed,23
 0,40.422161,-104.692711,Greeley 6 Administration Building,Admin staff,0,7,9/10/2020,9/21/2020,Quarantined,1,Quarantined,7
 3614,40.39954,-104.735039,Greeley West High School,Mixed Cohort,52,6,9/10/2020,9/24/2020,Quarantined,1,Quarantined,58
 3997,40.405834,-104.76825,Innovative Connections High School,2nd Grade Cohort,21,2,9/10/2020,9/24/2020,Quarantined,1,Quarantined,23
 2850,40.410126,-104.787331,University Schools,1st Grade Cohort,22,2,9/10/2020,9/24/2020,Quarantined,1,Quarantined,24
 2850,40.410126,-104.787331,University Schools,2st Grade Cohort,21,2,9/10/2020,9/24/2020,Quarantined,1,Quarantined,23
-3162,40.424347,-104.735077,Franklin Middle School,8th Grade Cohort,24,5,9/1/2020,9/16/2020,Quarantined,1,Closed,29
-2657,40.420017,-104.771461,Early College Academy,10th Grade Cohort,18,4,8/31/2020,9/8/2020,Quarantined,1,Quarantined,22
-7814,40.426685,-104.746429,Shawsheen Elementary,2nd Grade Cohort,17,5,8/30/2020,9/14/2020,Quarantined,1,Quarantined,22
-4356,40.39595,-104.711136,Jackson Elementary,4th Grade Cohort,22,3,8/29/2020,9/14/2020,Quarantined,1,Quarantined,25
-2703,40.406967,-104.76828,Early Childhood Center at Aims Community College,Preschool,39,3,8/28/2020,9/15/2020,Quarantined,1,Quarantined,42
-4438,40.377541,-104.784508,Prairie Heights Middle School,8th Grade Cohort,19,4,8/28/2020,9/10/2020,Quarantined,1,Quarantined,23
-3162,40.424347,-104.735077,Franklin Middle School,6th Grade Cohort,19,6,8/26/2020,9/10/2020,Quarantined,1,Closed,25
-3162,40.424347,-104.735077,Franklin Middle School,8th Grade Cohort,19,4,8/25/2020,9/9/2020,Quarantined,1,Closed,23
-4356,40.39595,-104.711136,Jackson Elementary,3rd Grade Cohort,18,5,8/25/2020,9/9/2020,Quarantined,1,Quarantined,23
-1875,40.39109,-104.721832,Frontier Elementary,5th Grade Cohort,17,2,8/20/2020,9/8/2020,Quarantined,1,Quarantined,19
+1,40.406967,-104.76828,ECC Aims District 6 Preschool,1 Preschool Cohort,30,5,9/11/2020,9/25/2020,Quarantined,1,Quarantined,35
+3880,40.413918,-104.715622,Heath Middle School,8th Grade and Algebra Cohort,47,7,9/13/2020,9/21/2020,Quarantined,1,Quarantined,54
+5620,40.419445,-104.711403,Maplewood Elementary School,5th Grade Cohort,23,4,9/14/2020,9/23/2020,Quarantined,1,Quarantined,27
+4356,40.39595,-104.711136,Jackson Elementary,3rd Grade Cohort,16,3,9/16/2020,9/30/2020,Quarantined,1,Quarantined,19
+53,40.437634,-104.792267,Winograd K-8 Elementary School,3rd Grade Cohort,20,4,9/17/2020,10/1/2020,Quarantined,1,Quarantined,24
+2850,40.410126,-104.787331,University Schools,7th Grade Cohort,16,8,9/19/2020,10/5/2020,Quarantined,1,Quarantined,24
+3162,40.424347,-104.735077,Franklin Middle School,7th Grade Cohort,20,4,9/21/2020,10/5/2020,Quarantined,1,Closed,24
+53,40.437634,-104.792267,Winograd K-8 Elementary School,5th Grade Cohort,24,1,9/21/2020,9/29/2020,Quarantined,1,Quarantined,25
+3162,40.424347,-104.735077,Franklin Middle School,8th Grade Cohort,18,4,9/24/2020,10/8/2020,Quarantined,1,Closed,22
+3162,40.424347,-104.735077,Franklin Middle School,8th Grade Cohort,20,4,9/24/2020,10/8/2020,Quarantined,1,Closed,24
+1875,40.39109,-104.721832,Frontier Elementary,Mixed Cohort,22,5,9/24/2020,9/8/2020,Quarantined,1,Quarantined,27
+1875,40.412838,-104.787861,Frontier High School,Mixed Cohort,22,4,9/24/2020,10/8/2020,Quarantined,1,Quarantined,26
+3610,40.415386,-104.701805,Greeley Central High School,Mixed Cohort,14,2,9/24/2020,10/14/2020,Quarantined,1,Quarantined,16
+4425,40.417755,-104.683754,Jefferson Junior/Senior High,B Cohort,29,8,9/24/2020,10/14/2020,Quarantined,1,Clear,37
+4356,40.39595,-104.711136,Jackson Elementary,5th Grade Cohort,18,4,9/25/2020,10/2/2020,Quarantined,1,Quarantined,22
+3162,40.424347,-104.735077,Franklin Middle School,6th Grade Cohort,16,0,9/28/2020,10/8/2020,Quarantined,1,Closed,16
+4438,40.377541,-104.784508,Prairie Heights Middle School,8th Grade Cohort,8,2,9/28/2020,10/7/2020,Quarantined,1,Quarantined,10
+2222,40.381214,-104.714149,Dos Rios Elementary School,5th Grade Cohort,17,4,9/29/2020,10/8/2020,Quarantined,1,Quarantined,21
+6774,40.429775,-104.701637,Billie Martinez Elementary,2nd Grade Cohort,36,5,9/30/2020,10/13/2020,Quarantined,1,Quarantined,41
+1875,40.412838,-104.787861,Frontier High School,All,0,0,10/1/2020,10/12/2020,Quarantined,1,Clear,0
+3880,40.413918,-104.715622,Heath Middle School,6th Grade Cohort,20,8,10/3/2020,10/13/2020,Quarantined,1,Quarantined,28
+6774,40.429775,-104.701637,Billie Martinez Elementary,1st Grade Cohort,19,3,10/6/2020,10/21/2020,Quarantined,1,Quarantined,22
+2222,40.381214,-104.714149,Dos Rios Elementary School,5th Grade Cohort,16,2,10/6/2020,10/20/2020,Quarantined,1,Quarantined,18
+3880,40.413918,-104.715622,Heath Middle School,6th Grade Cohort,19,5,10/6/2020,10/16/2020,Quarantined,1,Quarantined,24
+4438,40.377541,-104.784508,Prairie Heights Middle School,"6th, 7th and 8th Grade",66,15,10/6/2020,10/20/2020,Quarantined,1,Quarantined,81
+6774,40.429775,-104.701637,Billie Martinez Elementary,1st Grade Cohort,24,2,10/7/2020,10/22/2020,Quarantined,1,Quarantined,26
+6774,40.429775,-104.701637,Billie Martinez Elementary,1st Grade Cohort,21,2,10/7/2020,10/22/2020,Quarantined,1,Quarantined,23
+5412,40.427505,-104.719116,Madison Elementary,4th Grade,18,1,10/7/2020,10/22/2020,Quarantined,1,Quarantined,19
+6774,40.429775,-104.701637,Billie Martinez Elementary,Kindergarten,18,6,10/8/2020,10/20/2020,Quarantined,1,Quarantined,24
+5620,40.419445,-104.711403,Maplewood Elementary School,3th Grade Cohort,18,2,10/9/2020,10/23/2020,Quarantined,1,Quarantined,20
+5752,40.402077,-104.727592,Meeker Elementary School,Mixed Cohort,17,1,10/9/2020,10/23/2020,Quarantined,1,Quarantined,18
+2850,40.410126,-104.787331,University Schools,JV Football Team,36,9,10/12/2020,10/27/2020,Closed,1,Quarantined,45
+1875,40.412838,-104.787861,Frontier High School,Primarily 9th Grade,36,9,10/13/2020,10/28/2020,Closed,1,Quarantined,45
+3610,40.415386,-104.701805,Greeley Central High School,A Cohort,58,6,10/14/2020,10/22/2020,Closed,1,Quarantined,64
+3614,40.39954,-104.735039,Greeley West High School,9th Grade,14,3,10/14/2020,10/28/2020,Closed,1,Quarantined,17
+4425,40.417755,-104.683754,Jefferson Junior/Senior High,Mixed Cohort,9,3,10/14/2020,10/23/2020,Closed,1,Quarantined,12
+5660,40.427559,-104.766296,McAuliffe STEM Academy,Special ed and kindergarden,21,10,10/14/2020,10/23/2020,Quarantined,1,Quarantined,31
+5660,40.427559,-104.766296,McAuliffe STEM Academy,ABC After School Program,19,5,10/14/2020,10/23/2020,Quarantined,1,Quarantined,24
+3610,40.415386,-104.701805,Greeley Central High School,A Cohort,1,0,10/15/2020,10/21/2020,Quarantined,1,Quarantined,1
+4425,40.417755,-104.683754,Jefferson Junior/Senior High,Mixed Cohort,10,5,10/16/2020,10/30/2020,Quarantined,1,Quarantined,15
+2850,40.410126,-104.787331,University Schools,6th and 8th Grade Cohort,59,1,10/16/2020,10/30/2020,Quarantined,1,Quarantined,60
+6774,40.429775,-104.701637,Billie Martinez Elementary,3rd Grade Cohort,21,2,10/19/2020,10/30/2020,Quarantined,1,Quarantined,23
+0,40.422161,-104.692711,Greeley 6 Administration Building,Nutrition Services,0,3,10/19/2020,11/2/2020,Quarantined,1,Quarantined,3
+5412,40.427505,-104.719116,Madison Elementary,Mixed Cohort,38,7,10/19/2020,11/2/2020,Quarantined,1,Quarantined,45
+7700,40.418301,-104.728958,Scott Elementary School,5th Grade,21,2,10/19/2020,11/2/2020,Closed,1,Quarantined,23
+1384,40.377354,-104.701286,Centennial Elementary School,Kindergarten,31,1,10/20/2020,11/2/2020,Quarantined,1,Quarantined,32
+1500,40.38118,-104.710983,Chappelow K-8 Magnet School,3rd Grade Cohort,17,1,10/21/2020,11/4/2020,Quarantined,1,Quarantined,18
+3162,40.424347,-104.735077,Franklin Middle School,8th Grade Cohort,19,5,10/21/2020,11/3/2020,Closed,1,Quarantined,24
+3614,40.39954,-104.735039,Greeley West High School,Mixed Cohort,7,6,10/21/2020,10/29/2020,Quarantined,1,Quarantined,13
+8965,40.406124,-104.768265,Union Colony Schools,Grades 8 and 11,134,0,10/23/2020,11/6/2020,Closed,1,Quarantined,134
+6364,40.437233,-104.792343,Northridge High School,BB Cohort Mixed,26,4,10/24/2020,11/7/2020,Quarantined,1,Quarantined,30
+7700,40.418301,-104.728958,Scott Elementary School,1st Grade Cohort,17,3,10/24/2020,11/5/2020,Quarantined,1,Quarantined,20
+5985,40.403175,-104.756348,Monfort Elementary School,3rd Grade Cohort,22,2,10/26/2020,11/5/2020,Quarantined,1,Quarantined,24
+2850,40.410126,-104.787331,University Schools,Kindergarten - 4th Grade Cohort,104,8,10/26/2020,11/6/2020,Quarantined,1,Quarantined,112
+3614,40.39954,-104.735039,Greeley West High School,9th and 11th Grade Cohort,38,2,10/27/2020,11/6/2020,Quarantined,1,Quarantined,40
+4356,40.39595,-104.711136,Jackson Elementary,1st Grade Cohort,22,2,10/27/2020,11/9/2020,Quarantined,1,Quarantined,24
+4356,40.39595,-104.711136,Jackson Elementary,5th Grade Cohort,19,3,10/27/2020,11/9/2020,Closed,1,Quarantined,22
+5660,40.427559,-104.766296,McAuliffe STEM Academy,7th Grade Cohort,38,4,10/27/2020,11/9/2020,Quarantined,1,Quarantined,42
+988,40.396191,-104.720695,Brentwood Middle School,8th Grade Cohort,21,6,10/28/2020,11/12/2020,Quarantined,1,Quarantined,27
+1500,40.38118,-104.710983,Chappelow K-8 Magnet School,8th Grade Cohort,27,4,10/28/2020,11/12/2020,Quarantined,1,Quarantined,31
+0,40.422161,-104.692711,Greeley 6 Administration Building,NEXT Program,2,1,10/28/2020,11/11/2020,Quarantined,1,Quarantined,3
+3610,40.415386,-104.701805,Greeley Central High School,A A Cohort,36,5,10/28/2020,11/11/2020,Quarantined,1,Quarantined,41
+7700,40.418301,-104.728958,Scott Elementary School,2nd Grade Cohort,17,2,10/28/2020,11/5/2020,Quarantined,1,Quarantined,19
+2850,40.410126,-104.787331,University Schools,Mixed Cohort,66,16,10/28/2020,11/12/2020,Quarantined,1,Quarantined,82
+6774,40.429775,-104.701637,Billie Martinez Elementary,1st  Grade Cohort,23,4,10/29/2020,11/11/2020,Quarantined,1,Quarantined,27
+988,40.396191,-104.720695,Brentwood Middle School,8th Grade Cohort,61,1,10/29/2020,11/12/2020,Quarantined,1,Quarantined,62
+3614,40.39954,-104.735039,Greeley West High School,Mixed Cohort,87,7,10/29/2020,11/7/2020,Quarantined,1,Quarantined,94
+4425,40.417755,-104.683754,Jefferson Junior/Senior High,Mixed Students,1,16,10/29/2020,11/12/2020,Closed,1,Quarantined,17
+5620,40.419445,-104.711403,Maplewood Elementary School,Mixed Cohort,9,1,10/29/2020,11/12/2020,Quarantined,1,Quarantined,10
+5752,40.402077,-104.727592,Meeker Elementary School,3rd Grade Cohort,23,4,10/29/2020,11/12/2020,Quarantined,1,Quarantined,27
+8467,40.395818,-104.676661,Salida del Sol Academy,6th and 8th Grade Cohort,50,9,10/29/2020,11/12/2020,Quarantined,1,Clear,59
+4356,40.39595,-104.711136,Jackson Elementary,3rd Grade Cohort,18,2,10/30/2020,11/11/2020,Quarantined,1,Quarantined,20
+8965,40.406124,-104.768265,Union Colony Schools,8thGrade Cohort,23,7,10/30/2020,11/11/2020,Quarantined,1,Quarantined,30
+0,40.422161,-104.692711,Greeley 6 Administration Building,Transportation,0,7,10/31/2020,11/14/2020,Quarantined,1,Quarantined,7
+5752,40.402077,-104.727592,Meeker Elementary School,1st  Grade Cohort,17,0,10/31/2020,11/14/2020,Quarantined,1,Quarantined,17
+1875,40.39109,-104.721832,Frontier Elementary,Mixed Cohort,25,1,11/1/2020,11/16/2020,Quarantined,1,Quarantined,26
+3614,40.39954,-104.735039,Greeley West High School,AA and C Team Football Cohorts,60,8,11/1/2020,11/16/2020,Quarantined,1,Quarantined,68
+1500,40.38118,-104.710983,Chappelow K-8 Magnet School,4th Grade Cohort,19,4,11/2/2020,11/16/2020,Quarantined,1,Quarantined,23
+52,40.381325,-104.748703,Heiman Elementary School,Kindergarten and 1st Grade Cohorts,44,4,11/2/2020,11/13/2020,Quarantined,1,Quarantined,48
+7700,40.418301,-104.728958,Scott Elementary School,5th Grade Cohort,22,2,11/2/2020,11/16/2020,Quarantined,1,Quarantined,24
+1875,40.39109,-104.721832,Frontier Elementary,,0,1,11/3/2020,11/18/2020,Quarantined,1,Quarantined,1
+3880,40.413918,-104.715622,Heath Middle School,8th Grade Cohort,22,6,11/3/2020,11/18/2020,Quarantined,1,Quarantined,28
+6364,40.437233,-104.792343,Northridge High School,9th Grade Cohort BB,29,6,11/3/2020,11/16/2020,Quarantined,1,Quarantined,35
+9611,40.424239,-104.790297,West Ridge Academy,Remote Learning,0,0,11/3/2020,11/16/2020,Closed,1,Closed,1
+6364,40.437233,-104.792343,Northridge High School,9th and 11th Grade Cohort,51,1,11/3/2020,11/17/2020,Quarantined,1,Quarantined,44
+6364,40.437233,-104.792343,Northridge High School,9th Grade Cohort,18,1,11/3/2020,11/17/2020,Quarantined,1,Quarantined,44
+3162,40.424347,-104.735077,Franklin Middle School,8th Grade Cohort,18,4,11/4/2020,11/16/2020,Quarantined,1,Quarantined,22
+3162,40.424347,-104.735077,Franklin Middle School,7th Grade Cohort,21,3,11/4/2020,11/16/2020,Quarantined,1,Quarantined,24
+3610,40.415386,-104.701805,Greeley Central High School,Football,68,6,11/4/2020,11/16/2020,Quarantined,1,Quarantined,74
+3610,40.415386,-104.701805,Greeley Central High School,Mixed Cohort,33,4,11/4/2020,11/18/2020,Quarantined,1,Quarantined,37
+3610,40.415386,-104.701805,Greeley Central High School,Mixed Cohort,26,3,11/4/2020,11/17/2020,Quarantined,1,Quarantined,20
+3610,40.415386,-104.701805,Greeley Central High School,Mixed Cohort,28,2,11/4/2020,11/13/2020,Quarantined,1,Quarantined,20
+52,40.381325,-104.748703,Heiman Elementary School,5th Grade Cohorts,22,3,11/4/2020,11/13/2020,Quarantined,1,Quarantined,25
+3610,40.415386,-104.701805,Greeley Central High School,Remote Learning,0,0,11/5/2020,11/30/2020,Closed,1,Quarantined,0
+4356,40.39595,-104.711136,Jackson Elementary,Kindergarden Cohot,21,2,11/5/2020,11/19/2020,Quarantined,1,Quarantined,23
+5620,40.419445,-104.711403,Maplewood Elementary School,4th Grade Cohort,27,3,11/5/2020,11/19/2020,Quarantined,1,Quarantined,30
+5660,40.427559,-104.766296,McAuliffe STEM Academy,2nd Grade Cohort,18,1,11/5/2020,11/17/2020,Quarantined,1,Quarantined,19
+5660,40.427559,-104.766296,McAuliffe STEM Academy,Kindergarden Cohort,20,0,11/5/2020,11/18/2020,Quarantined,1,Quarantined,20
+1500,40.38118,-104.710983,Chappelow K-8 Magnet School,Mixed Cohort,4,3,11/5/2020,11/17/2020,Quarantined,1,Quarantined,7
+3614,40.39954,-104.735039,Greeley West High School,Mixed Cohort,20,2,11/5/2020,11/18/2020,Quarantined,1,Quarantined,22
+3162,40.424347,-104.735077,Franklin Middle School,7th Grade Cohort,21,3,11/5/2020,11/14/2020,Quarantined,1,Quarantined,24
+54,40.406437,-104.656998,Bella Romero,4th and 5th Grade Cohorts,64,5,11/5/2020,11/17/2020,Closed,1,Quarantined,69
+7700,40.418301,-104.728958,Scott Elementary School,3rd Grade,22,2,11/5/2020,11/19/2020,Quarantined,1,Quarantined,24
+7700,40.418301,-104.728958,Scott Elementary School,Kindergarden Cohort,20,1,11/5/2020,11/19/2020,Quarantined,1,Quarantined,21
+1875,40.39109,-104.721832,Frontier Elementary,Remote Learning,0,0,11/6/2020,11/30/2020,Closed,1,Quarantined,0
+52,40.381325,-104.748703,Heiman Elementary School,3rd Grade Cohorts,19,6,11/6/2020,11/18/2020,Quarantined,1,Quarantined,25
+4438,40.377541,-104.784508,Prairie Heights Middle School,8th Grade,21,5,11/6/2020,11/19/2020,Quarantined,1,Quarantined,26
+8467,40.395818,-104.676661,Salida del Sol Academy,2nd Grade Cohort,18,3,11/6/2020,12/1/2020,Quarantined,1,Clear,21
+52,40.381325,-104.748703,Heiman Elementary School,"2,3, 5th Grade Cohorts",65,9,11/6/2020,12/1/2020,Quarantined,1,Quarantined,74
+3162,40.424347,-104.735077,Franklin Middle School,6th Grade Cohort,21,1,11/7/2020,11/19/2020,Quarantined,1,Quarantined,22
+3162,40.424347,-104.735077,Franklin Middle School,8th Grade Cohort,41,1,11/7/2020,11/17/2020,Quarantined,1,Quarantined,42
+3880,40.413918,-104.715622,Heath Middle School,7th Grade Cohort,24,6,11/7/2020,11/30/2020,Quarantined,1,Quarantined,30
+3614,40.39954,-104.735039,Greeley West High School,Mixed Cohort,23,4,11/7/2020,11/13/2020,Closed,1,Quarantined,22
+3162,40.424347,-104.735077,Franklin Middle School,7th Grade Cohort,41,1,11/7/2020,11/17/2020,Quarantined,1,Quarantined,42
+7814,40.426685,-104.746429,Shawsheen Elementary,"Kindergarden, 5th Grade Cohort",52,5,11/8/2020,11/30/2020,Quarantined,1,Quarantined,57
 1875,40.39109,-104.721832,Frontier Elementary,K-5 Cohorts,0,3,11/9/2020,11/30/2020,Quarantined,1,Quarantined,3
 2703,40.406967,-104.76828,Early Childhood Center at Aims Community College,Preschool,15,5,11/9/2020,11/30/2020,Closed,1,Quarantined,20
 1875,40.39109,-104.721832,Frontier Elementary,7th Grade Cohort,22,8,11/9/2020,11/13/2020,Quarantined,1,Quarantined,30
@@ -52,47 +148,18 @@ School_Cod,LATITUDE,LONGITUDE,School,GradeLevel,QS,QA,Bdate,Edate,Indicator,siz,
 2850,40.410126,-104.787331,University Schools,7th Grade Cohort,18,2,11/9/2020,11/20/2020,Quarantined,1,Quarantined,20
 2850,40.410126,-104.787331,University Schools,9th Grade Cohort,34,5,11/9/2020,11/20/2020,Quarantined,1,Quarantined,39
 52,40.381325,-104.748703,Heiman Elementary School,Mixed Cohort,7,4,11/9/2020,11/30/2020,Quarantined,1,Quarantined,11
-7814,40.426685,-104.746429,Shawsheen Elementary,"Kindergarden, 5th Grade Cohort",52,5,11/8/2020,11/30/2020,Quarantined,1,Quarantined,57
-3162,40.424347,-104.735077,Franklin Middle School,6th Grade Cohort,21,1,11/7/2020,11/19/2020,Quarantined,1,Quarantined,22
-3162,40.424347,-104.735077,Franklin Middle School,8th Grade Cohort,41,1,11/7/2020,11/17/2020,Quarantined,1,Quarantined,42
-3880,40.413918,-104.715622,Heath Middle School,7th Grade Cohort,24,6,11/7/2020,11/30/2020,Quarantined,1,Quarantined,30
-3614,40.39954,-104.735039,Greeley West High School,Mixed Cohort,23,4,11/7/2020,11/13/2020,Closed,1,Quarantined,22
-3162,40.424347,-104.735077,Franklin Middle School,7th Grade Cohort,41,1,11/7/2020,11/17/2020,Quarantined,1,Quarantined,42
-1875,40.39109,-104.721832,Frontier Elementary,Remote Learning,0,0,11/6/2020,11/30/2020,Closed,1,Quarantined,0
-52,40.381325,-104.748703,Heiman Elementary School,3rd Grade Cohorts,19,6,11/6/2020,11/18/2020,Quarantined,1,Quarantined,25
-4438,40.377541,-104.784508,Prairie Heights Middle School,8th Grade,21,5,11/6/2020,11/19/2020,Quarantined,1,Quarantined,26
-8467,40.395818,-104.676661,Salida del Sol Academy,2nd Grade Cohort,18,3,11/6/2020,12/1/2020,Quarantined,1,Clear,21
-52,40.381325,-104.748703,Heiman Elementary School,"2,3, 5th Grade Cohorts",65,9,11/6/2020,12/1/2020,Quarantined,1,Quarantined,74
-3610,40.415386,-104.701805,Greeley Central High School,Remote Learning,0,0,11/5/2020,11/30/2020,Closed,1,Quarantined,0
-4356,40.39595,-104.711136,Jackson Elementary,Kindergarden Cohot,21,2,11/5/2020,11/19/2020,Quarantined,1,Quarantined,23
-5620,40.419445,-104.711403,Maplewood Elementary School,4th Grade Cohort,27,3,11/5/2020,11/19/2020,Quarantined,1,Quarantined,30
-5660,40.427559,-104.766296,McAuliffe STEM Academy,2nd Grade Cohort,18,1,11/5/2020,11/17/2020,Quarantined,1,Quarantined,19
-5660,40.427559,-104.766296,McAuliffe STEM Academy,Kindergarden Cohort,20,0,11/5/2020,11/18/2020,Quarantined,1,Quarantined,20
-1500,40.38118,-104.710983,Chappelow K-8 Magnet School,Mixed Cohort,4,3,11/5/2020,11/17/2020,Quarantined,1,Quarantined,7
-3614,40.39954,-104.735039,Greeley West High School,Mixed Cohort,20,2,11/5/2020,11/18/2020,Quarantined,1,Quarantined,22
-3162,40.424347,-104.735077,Franklin Middle School,7th Grade Cohort,21,3,11/5/2020,11/14/2020,Quarantined,1,Quarantined,24
-54,40.406437,-104.656998,Bella Romero,4th and 5th Grade Cohorts,64,5,11/5/2020,11/17/2020,Closed,1,Quarantined,69
-7700,40.418301,-104.728958,Scott Elementary School,3rd Grade  ,22,2,11/5/2020,11/19/2020,Quarantined,1,Quarantined,24
-7700,40.418301,-104.728958,Scott Elementary School,Kindergarden Cohort,20,1,11/5/2020,11/19/2020,Quarantined,1,Quarantined,21
-3162,40.424347,-104.735077,Franklin Middle School,8th Grade Cohort,18,4,11/4/2020,11/16/2020,Quarantined,1,Quarantined,22
-3162,40.424347,-104.735077,Franklin Middle School,7th Grade Cohort,21,3,11/4/2020,11/16/2020,Quarantined,1,Quarantined,24
-3610,40.415386,-104.701805,Greeley Central High School,Football,68,6,11/4/2020,11/16/2020,Quarantined,1,Quarantined,74
-3610,40.415386,-104.701805,Greeley Central High School,Mixed Cohort,33,4,11/4/2020,11/18/2020,Quarantined,1,Quarantined,37
-3610,40.415386,-104.701805,Greeley Central High School,Mixed Cohort,26,3,11/4/2020,11/17/2020,Quarantined,1,Quarantined,20
-3610,40.415386,-104.701805,Greeley Central High School,Mixed Cohort,28,2,11/4/2020,11/13/2020,Quarantined,1,Quarantined,20
-52,40.381325,-104.748703,Heiman Elementary School,5th Grade Cohorts,22,3,11/4/2020,11/13/2020,Quarantined,1,Quarantined,25
-1875,40.39109,-104.721832,Frontier Elementary,,0,1,11/3/2020,11/18/2020,Quarantined,1,Quarantined,1
-3880,40.413918,-104.715622,Heath Middle School,8th Grade Cohort,22,6,11/3/2020,11/18/2020,Quarantined,1,Quarantined,28
-6364,40.437233,-104.792343,Northridge High School,9th Grade Cohort BB,29,6,11/3/2020,11/16/2020,Quarantined,1,Quarantined,35
-9611,40.424239,-104.790297,West Ridge Academy,Remote Learning,0,0,11/3/2020,11/16/2020,Closed,1,Closed,1
-6364,40.437233,-104.792343,Northridge High School,9th and 11th Grade Cohort,51,1,11/3/2020,11/17/2020,Quarantined,1,Quarantined,44
-1500,40.38118,-104.710983,Chappelow K-8 Magnet School,4th Grade Cohort,19,4,11/2/2020,11/16/2020,Quarantined,1,Quarantined,23
-52,40.381325,-104.748703,Heiman Elementary School,Kindergarten and 1st Grade Cohorts,44,4,11/2/2020,11/13/2020,Quarantined,1,Quarantined,48
-7700,40.418301,-104.728958,Scott Elementary School,5th Grade Cohort,22,2,11/2/2020,11/16/2020,Quarantined,1,Quarantined,24
-2850,40.410126,-104.787331,University Schools,Kindergarden Cohort,18,2,11/12/2020,11/30/2020,Quarantined,1,Quarantined,28
+7700,40.418301,-104.728958,Scott Elementary School,4th Grade Cohort,21,2,11/10/2020,11/30/2020,Quarantined,1,Quarantined,23
+8965,40.406124,-104.768265,Union Colony Schools,7th Grade,70,5,11/10/2020,11/30/2020,Quarantined,1,Quarantined,134
+1500,40.38118,-104.710983,Chappelow K-8 Magnet School,3rd and 4th Grade Cohort,36,0,11/10/2020,11/16/2020,Quarantined,1,Quarantined,36
+1500,40.38118,-104.710983,Chappelow K-8 Magnet School,7th Grade Cohort,19,4,11/10/2020,11/30/2020,Quarantined,1,Quarantined,23
+1500,40.38118,-104.710983,Chappelow K-8 Magnet School,8th Grade Cohort,25,4,11/10/2020,11/30/2020,Quarantined,1,Quarantined,29
+4356,40.39595,-104.711136,Jackson Elementary,Kindergarden 2nd 3rd Grade Cohorts,54,3,11/10/2020,11/30/2020,Closed,1,Quarantined,57
+8467,40.395818,-104.676661,Salida del Sol Academy,1st Grade Cohort,20,4,11/10/2020,12/1/2020,Quarantined,1,Quarantined,59
+3880,40.413918,-104.715622,Heath Middle School,7th Grade Cohort,21,2,11/10/2020,11/24/2020,Quarantined,1,Quarantined,22
+3880,40.413918,-104.715622,Heath Middle School,6th Grade Cohort,20,0,11/10/2020,11/24/2020,Quarantined,1,Quarantined,22
 3173,40.427254,-104.68988,Fred Tjardes School of Innovation,,0,0,11/11/2020,,Clear,1,Clear,0
 7700,40.418301,-104.728958,Scott Elementary School,1st  Grade Cohort,17,4,11/11/2020,11/30/2020,Quarantined,1,Quarantined,21
-5412,40.427505,-104.719116,Madison Elementary,4th Grade  Cohort,18,2,11/11/2020,11/30/2020,Quarantined,1,Quarantined,20
+7700,40.418301,-104.728958,Scott Elementary School,1st  Grade Cohort,17,4,11/11/2020,11/30/2020,Quarantined,1,Quarantined,21
 2850,40.410126,-104.787331,University Schools,7th Grade Cohort,17,3,11/11/2020,11/13/2020,Quarantined,1,Quarantined,20
 2850,40.410126,-104.787331,University Schools,4th Grade Cohort,25,3,11/11/2020,11/13/2020,Quarantined,1,Quarantined,28
 5985,40.403175,-104.756348,Monfort Elementary School,5th Grade Cohort,22,5,11/11/2020,11/30/2020,Quarantined,1,Quarantined,27
@@ -106,68 +173,18 @@ School_Cod,LATITUDE,LONGITUDE,School,GradeLevel,QS,QA,Bdate,Edate,Indicator,siz,
 52,40.381325,-104.748703,Heiman Elementary School,,26,0,11/11/2020,11/30/2020,Quarantined,1,Quarantined,26
 3880,40.413918,-104.715622,Heath Middle School,7th Grade Cohort,22,3,11/11/2020,11/30/2020,Quarantined,1,Quarantined,22
 5752,40.402077,-104.727592,Meeker Elementary School,4th Grade Cohort,22,2,11/11/2020,11/30/2020,Quarantined,1,Quarantined,25
-7700,40.418301,-104.728958,Scott Elementary School,4th Grade Cohort,21,2,11/10/2020,11/30/2020,Quarantined,1,Quarantined,23
-8965,40.406124,-104.768265,Union Colony Schools,7th Grade ,70,5,11/10/2020,11/30/2020,Quarantined,1,Quarantined,134
-1500,40.38118,-104.710983,Chappelow K-8 Magnet School,3rd and 4th Grade Cohort,36,0,11/10/2020,11/16/2020,Quarantined,1,Quarantined,36
-1500,40.38118,-104.710983,Chappelow K-8 Magnet School,7th Grade Cohort,19,4,11/10/2020,11/30/2020,Quarantined,1,Quarantined,23
-1500,40.38118,-104.710983,Chappelow K-8 Magnet School,8th Grade Cohort,25,4,11/10/2020,11/30/2020,Quarantined,1,Quarantined,29
-4356,40.39595,-104.711136,Jackson Elementary,Kindergarden 2nd 3rd Grade Cohorts,54,3,11/10/2020,11/30/2020,Closed,1,Quarantined,57
-8467,40.395818,-104.676661,Salida del Sol Academy,1st Grade Cohort,20,4,11/10/2020,12/1/2020,Quarantined,1,Quarantined,59
-1875,40.39109,-104.721832,Frontier Elementary,Mixed Cohort,25,1,11/1/2020,11/16/2020,Quarantined,1,Quarantined,26
-3614,40.39954,-104.735039,Greeley West High School,AA and C Team Football Cohorts,60,8,11/1/2020,11/16/2020,Quarantined,1,Quarantined,68
-5620,40.419445,-104.711403,Maplewood Elementary School,3th Grade Cohort,18,2,10/9/2020,10/23/2020,Quarantined,1,Quarantined,20
-5752,40.402077,-104.727592,Meeker Elementary School,Mixed Cohort,17,1,10/9/2020,10/23/2020,Quarantined,1,Quarantined,18
-6774,40.429775,-104.701637,Billie Martinez Elementary,Kindergarten,18,6,10/8/2020,10/20/2020,Quarantined,1,Quarantined,24
-6774,40.429775,-104.701637,Billie Martinez Elementary,1st Grade Cohort,24,2,10/7/2020,10/22/2020,Quarantined,1,Quarantined,26
-6774,40.429775,-104.701637,Billie Martinez Elementary,1st Grade Cohort,21,2,10/7/2020,10/22/2020,Quarantined,1,Quarantined,23
-5412,40.427505,-104.719116,Madison Elementary,4th Grade,18,1,10/7/2020,10/22/2020,Quarantined,1,Quarantined,19
-6774,40.429775,-104.701637,Billie Martinez Elementary,1st Grade Cohort,19,3,10/6/2020,10/21/2020,Quarantined,1,Quarantined,22
-2222,40.381214,-104.714149,Dos Rios Elementary School,5th Grade Cohort,16,2,10/6/2020,10/20/2020,Quarantined,1,Quarantined,18
-3880,40.413918,-104.715622,Heath Middle School,6th Grade Cohort,19,5,10/6/2020,10/16/2020,Quarantined,1,Quarantined,24
-4438,40.377541,-104.784508,Prairie Heights Middle School,"6th, 7th and 8th Grade",66,15,10/6/2020,10/20/2020,Quarantined,1,Quarantined,81
-0,40.422161,-104.692711,Greeley 6 Administration Building,Transportation,0,7,10/31/2020,11/14/2020,Quarantined,1,Quarantined,7
-5752,40.402077,-104.727592,Meeker Elementary School,1st  Grade Cohort,17,0,10/31/2020,11/14/2020,Quarantined,1,Quarantined,17
-4356,40.39595,-104.711136,Jackson Elementary,3rd Grade Cohort,18,2,10/30/2020,11/11/2020,Quarantined,1,Quarantined,20
-8965,40.406124,-104.768265,Union Colony Schools,8thGrade Cohort,23,7,10/30/2020,11/11/2020,Quarantined,1,Quarantined,30
-3880,40.413918,-104.715622,Heath Middle School,6th Grade Cohort,20,8,10/3/2020,10/13/2020,Quarantined,1,Quarantined,28
-6774,40.429775,-104.701637,Billie Martinez Elementary,1st  Grade Cohort,23,4,10/29/2020,11/11/2020,Quarantined,1,Quarantined,27
-988,40.396191,-104.720695,Brentwood Middle School,8th Grade Cohort,61,1,10/29/2020,11/12/2020,Quarantined,1,Quarantined,62
-3614,40.39954,-104.735039,Greeley West High School,Mixed Cohort,87,7,10/29/2020,11/7/2020,Quarantined,1,Quarantined,94
-4425,40.417755,-104.683754,Jefferson Junior/Senior High,Mixed Students,1,16,10/29/2020,11/12/2020,Closed,1,Quarantined,17
-5620,40.419445,-104.711403,Maplewood Elementary School,Mixed Cohort,9,1,10/29/2020,11/12/2020,Quarantined,1,Quarantined,10
-5752,40.402077,-104.727592,Meeker Elementary School,3rd Grade Cohort,23,4,10/29/2020,11/12/2020,Quarantined,1,Quarantined,27
-8467,40.395818,-104.676661,Salida del Sol Academy,6th and 8th Grade Cohort,50,9,10/29/2020,11/12/2020,Quarantined,1,Clear,59
-988,40.396191,-104.720695,Brentwood Middle School,8th Grade Cohort,21,6,10/28/2020,11/12/2020,Quarantined,1,Quarantined,27
-1500,40.38118,-104.710983,Chappelow K-8 Magnet School,8th Grade Cohort,27,4,10/28/2020,11/12/2020,Quarantined,1,Quarantined,31
-0,40.422161,-104.692711,Greeley 6 Administration Building,NEXT Program,2,1,10/28/2020,11/11/2020,Quarantined,1,Quarantined,3
-3610,40.415386,-104.701805,Greeley Central High School,A A Cohort,36,5,10/28/2020,11/11/2020,Quarantined,1,Quarantined,41
-7700,40.418301,-104.728958,Scott Elementary School,2nd Grade Cohort,17,2,10/28/2020,11/5/2020,Quarantined,1,Quarantined,19
-2850,40.410126,-104.787331,University Schools,Mixed Cohort,66,16,10/28/2020,11/12/2020,Quarantined,1,Quarantined,82
-3614,40.39954,-104.735039,Greeley West High School,9th and 11th Grade Cohort,38,2,10/27/2020,11/6/2020,Quarantined,1,Quarantined,40
-4356,40.39595,-104.711136,Jackson Elementary,1st Grade Cohort,22,2,10/27/2020,11/9/2020,Quarantined,1,Quarantined,24
-4356,40.39595,-104.711136,Jackson Elementary,5th Grade Cohort,19,3,10/27/2020,11/9/2020,Closed,1,Quarantined,22
-5660,40.427559,-104.766296,McAuliffe STEM Academy,7th Grade Cohort,38,4,10/27/2020,11/9/2020,Quarantined,1,Quarantined,42
-5985,40.403175,-104.756348,Monfort Elementary School,3rd Grade Cohort,22,2,10/26/2020,11/5/2020,Quarantined,1,Quarantined,24
-2850,40.410126,-104.787331,University Schools,Kindergarten - 4th Grade Cohort,104,8,10/26/2020,11/6/2020,Quarantined,1,Quarantined,112
-6364,40.437233,-104.792343,Northridge High School,BB Cohort Mixed,26,4,10/24/2020,11/7/2020,Quarantined,1,Quarantined,30
-7700,40.418301,-104.728958,Scott Elementary School,1st Grade Cohort,17,3,10/24/2020,11/5/2020,Quarantined,1,Quarantined,20
-8965,40.406124,-104.768265,Union Colony Schools,Grades 8 and 11,134,0,10/23/2020,11/6/2020,Closed,1,Quarantined,134
-1500,40.38118,-104.710983,Chappelow K-8 Magnet School,3rd Grade Cohort,17,1,10/21/2020,11/4/2020,Quarantined,1,Quarantined,18
-3162,40.424347,-104.735077,Franklin Middle School,8th Grade Cohort,19,5,10/21/2020,11/3/2020,Closed,1,Quarantined,24
-3614,40.39954,-104.735039,Greeley West High School,Mixed Cohort,7,6,10/21/2020,10/29/2020,Quarantined,1,Quarantined,13
-1384,40.377354,-104.701286,Centennial Elementary School,Kindergarten,31,1,10/20/2020,11/2/2020,Quarantined,1,Quarantined,32
-6774,40.429775,-104.701637,Billie Martinez Elementary,3rd Grade Cohort,21,2,10/19/2020,10/30/2020,Quarantined,1,Quarantined,23
-0,40.422161,-104.692711,Greeley 6 Administration Building,Nutrition Services,0,3,10/19/2020,11/2/2020,Quarantined,1,Quarantined,3
-5412,40.427505,-104.719116,Madison Elementary,Mixed Cohort,38,7,10/19/2020,11/2/2020,Quarantined,1,Quarantined,45
-7700,40.418301,-104.728958,Scott Elementary School,5th Grade  ,21,2,10/19/2020,11/2/2020,Closed,1,Quarantined,23
-4425,40.417755,-104.683754,Jefferson Junior/Senior High,Mixed Cohort,10,5,10/16/2020,10/30/2020,Quarantined,1,Quarantined,15
-2850,40.410126,-104.787331,University Schools,6th and 8th Grade Cohort,59,1,10/16/2020,10/30/2020,Quarantined,1,Quarantined,60
-3610,40.415386,-104.701805,Greeley Central High School,A Cohort,1,0,10/15/2020,10/21/2020,Quarantined,1,Quarantined,1
-3610,40.415386,-104.701805,Greeley Central High School,A Cohort,58,6,10/14/2020,10/22/2020,Closed,1,Quarantined,64
-3614,40.39954,-104.735039,Greeley West High School,9th Grade,14,3,10/14/2020,10/28/2020,Closed,1,Quarantined,17
-4425,40.417755,-104.683754,Jefferson Junior/Senior High,Mixed Cohort,9,3,10/14/2020,10/23/2020,Closed,1,Quarantined,12
-5660,40.427559,-104.766296,McAuliffe STEM Academy,Special ed and kindergarden,21,10,10/14/2020,10/23/2020,Quarantined,1,Quarantined,31
-5660,40.427559,-104.766296,McAuliffe STEM Academy,ABC After School Program,19,5,10/14/2020,10/23/2020,Quarantined,1,Quarantined,24
-1875,40.412838,-104.787861,Frontier High School,Primarily 9th Grade,36,9,10/13/2020,10/28/2020,Closed,1,Quarantined,45
-2850,40.410126,-104.787331,University Schools,JV Football Team,36,9,10/12/2020,10/27/2020,Closed,1,Quarantined,45
-1875,40.412838,-104.787861,Frontier High School,All,0,0,10/1/2020,10/12/2020,Quarantined,1,Clear,0
+2850,40.410126,-104.787331,University Schools,Kindergarden Cohort,18,2,11/12/2020,11/30/2020,Quarantined,1,Quarantined,28
+2703,40.406967,-104.76828,Early Childhood Center at Aims Community College,12th Grade Cohort,6,0,11/12/2020,11/22/2020,Closed,1,Quarantined,6
+53,40.437634,-104.792267,Winograd K-8 Elementary School,4th Grade Cohort,19,3,11/12/2020,11/30/2020,Quarantined,1,Quarantined,22
+1500,40.38118,-104.710983,Chappelow K-8 Magnet School,7th Grade Cohort,20,4,11/12/2020,11/30/2020,Quarantined,1,Quarantined,24
+1500,40.38118,-104.710983,Chappelow K-8 Magnet School,1st Grade Cohort,19,1,11/12/2020,11/30/2020,Quarantined,1,Quarantined,20
+0,40.422161,-104.692711,Greeley 6 Administration Building,Family Center,0,11,11/12/2020,11/25/2020,Quarantined,1,Quarantined,7
+1384,40.377354,-104.701286,Centennial Elementary School,3rd Grade Cohort,20,3,11/13/2020,11/27/2020,Quarantined,1,Quarantined,24
+3880,40.413918,-104.715622,Heath Middle School,7th Grade Cohort,23,4,11/13/2020,11/25/2020,Quarantined,1,Quarantined,22
+3880,40.413918,-104.715622,Heath Middle School,7th Grade Cohort,22,4,11/13/2020,11/25/2020,Quarantined,1,Quarantined,22
+2703,40.406967,-104.76828,Early Childhood Center at Aims Community College,9th and 10th Grade Cohors,27,6,11/13/2020,11/26/2020,Closed,1,Quarantined,6
+1384,40.377354,-104.701286,Centennial Elementary School,3rd  Grade Cohort,20,3,11/13/2020,11/27/2020,Quarantined,1,Quarantined,25
+1384,40.377354,-104.701286,Centennial Elementary School,Mixed Grades,48,5,11/13/2020,11/27/2020,Quarantined,1,Quarantined,24
+7700,40.418301,-104.728958,Scott Elementary School,Mixed Grades,13,2,11/15/2020,11/25/2020,Quarantined,1,Quarantined,21
+7700,40.418301,-104.728958,Scott Elementary School,5th  Grade Cohort,17,5,11/15/2020,11/25/2020,Quarantined,1,Quarantined,21
+8965,40.406124,-104.768265,Union Colony Schools,Football Team,10,0,11/15/2020,11/27/2020,Quarantined,1,Quarantined,134

@@ -357,8 +357,8 @@ app.layout = dbc.Container(
                       dbc.Col(
                               html.Div([
                                   html.H1(''),
-                                  html.H1('School District 6 opened on September 17, 2020 and moved to remote learning on November 13, 2020'),
-                                  html.P(''),
+                                  html.P('School District 6 opened on September 17, 2020 and moved to remote learning on November 13, 2020'),
+                                 
                                   
                                   ]
                                 )),
